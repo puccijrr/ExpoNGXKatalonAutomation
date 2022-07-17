@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Sets security credentials back to defaults</description>
+   <name>Reset Default Security</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e88f7342-403a-4e64-9b4f-a1a870894c45</testCaseGuid>
+</TestCaseEntity>

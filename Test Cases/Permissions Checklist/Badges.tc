@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Ensures that Badges link is correctly accesssed</description>
+   <name>Badges</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f11d7167-338e-437c-95be-983874abff71</testCaseGuid>
+</TestCaseEntity>

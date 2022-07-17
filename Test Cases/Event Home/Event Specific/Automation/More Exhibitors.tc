@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Ensure Automation event home (more) Exhibitors button goes to event schedule with exhibitors view selected</description>
+   <name>More Exhibitors</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c47019e6-f990-4ecf-90da-23fcb96ba5aa</testCaseGuid>
+</TestCaseEntity>

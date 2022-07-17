@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Ensure Sponsorships Admin Menu item goes to Sponsorships List url with correct page</description>
+   <name>Sponsorships Menu</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c70646e3-cf7c-413d-9ba3-3a04d1ec7d48</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Refresh Tests" time="73.275" tests="2" failures="0" errors="0">
+   <testsuite name="Refresh Tests" tests="2" failures="0" errors="0" time="73.275" skipped="0" timestamp="2022-07-13 12:43:00" hostname="pucci - LAPTOP-EQ3CFHED" id="Test Suites/xMisc/Refresh Tests">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\pucci\\Programming\\katalon-automation\\Expo Main\\Reports\\20220713_124258\\xMisc\\Refresh Tests\\20220713_124258"/>
+         <property name="logFiles" value="C:\\Users\\pucci\\Programming\\katalon-automation\\Expo Main\\Reports\\20220713_124258\\xMisc\\Refresh Tests\\20220713_124258\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="pucci - LAPTOP-EQ3CFHED"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.3.5.208"/>
+         <property name="browser" value="Chrome 103.0.5060.114"/>
+         <property name="hostAddress" value="192.168.0.196"/>
+         <property name="sessionId" value="832774f422ebb06c475c81ac38796c6a"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/xMisc/Event Specific/Automation/Refresh Tests" time="72.325" classname="Test Cases/xMisc/Event Specific/Automation/Refresh Tests" status="PASSED">
+         <system-out><![CDATA[2022-07-13 12:43:00 - [TEST_CASE][PASSED] - Test Cases/xMisc/Event Specific/Automation/Refresh Tests: Test Cases/xMisc/Event Specific/Automation/Refresh Tests
+
+2022-07-13 12:43:01 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login Tests/Login with Main Events NGX (longer)"), ["url":login_Url, "events":events], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login Tests/Login with Main Events NGX (longer)' successfully
+
+2022-07-13 12:43:01 - [TEST_CASE][PASSED] - Test Cases/Login Tests/Login with Main Events NGX (longer): Test Cases/Login Tests/Login with Main Events NGX (longer)
+
+2022-07-13 12:43:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-13 12:43:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-13 12:43:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-13 12:43:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-13 12:43:03 - [TEST_STEP][PASSED] - navigateToUrl(login_Url): Navigate to 'https://rick.app.expopass.com/login' successfully
+
+2022-07-13 12:43:07 - [MESSAGE][PASSED] - Navigate to 'https://rick.app.expopass.com/login' successfully
+
+2022-07-13 12:43:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_EXPO/Login Objects/input_Email Address_ngx"), login): Text 'rick@expopass.com' is set on object 'Object Repository/Page_EXPO/Login Objects/input_Email Address_ngx'
+
+2022-07-13 12:43:07 - [MESSAGE][PASSED] - Text 'rick@expopass.com' is set on object 'Object Repository/Page_EXPO/Login Objects/input_Email Address_ngx'
+
+2022-07-13 12:43:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_EXPO/Login Objects/input_Password_ngx"), password): Text 'Password1' is set on object 'Object Repository/Page_EXPO/Login Objects/input_Password_ngx'
+
+2022-07-13 12:43:08 - [MESSAGE][PASSED] - Text 'Password1' is set on object 'Object Repository/Page_EXPO/Login Objects/input_Password_ngx'
+
+2022-07-13 12:43:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_EXPO/Login Objects/button_Login_ngx")): Object: 'Object Repository/Page_EXPO/Login Objects/button_Login_ngx' is clicked on
+
+2022-07-13 12:43:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_EXPO/Login Objects/button_Login_ngx' is clicked on
+
+2022-07-13 12:43:08 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-07-13 12:43:28 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-07-13 12:43:28 - [TEST_STEP][PASSED] - check_login(): null
+
+2022-07-13 12:43:28 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2022-07-13 12:43:28 - [TEST_STEP][PASSED] - url_check = url = getUrl(): Current window's url is: 'https://rick.app.expopass.com/events'
+
+2022-07-13 12:43:28 - [MESSAGE][PASSED] - Current window's url is: 'https://rick.app.expopass.com/events'
+
+2022-07-13 12:43:28 - [TEST_STEP][PASSED] - if (url_check == events): https://rick.app.expopass.com/events
+
+2022-07-13 12:43:28 - [TEST_STEP][PASSED] - markPassed("PASS: the correct URL was found after clicking the login button"): PASS: the correct URL was found after clicking the login button
+
+2022-07-13 12:43:28 - [MESSAGE][PASSED] - PASS: the correct URL was found after clicking the login button
+
+2022-07-13 12:43:28 - [TEST_STEP][PASSED] - log.logInfo(url_check): https://rick.app.expopass.com/events
+
+2022-07-13 12:43:28 - [MESSAGE][INFO] - https://rick.app.expopass.com/events
+
+2022-07-13 12:43:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login Tests/Login with Main Events NGX (longer)' successfully
+
+2022-07-13 12:43:28 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-07-13 12:43:29 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-13 12:43:29 - [TEST_STEP][PASSED] - navigateToUrl(eventHomeURL): Navigate to 'https://rick.app.expopass.com/events/mjN8yX3' successfully
+
+2022-07-13 12:43:30 - [MESSAGE][PASSED] - Navigate to 'https://rick.app.expopass.com/events/mjN8yX3' successfully
+
+2022-07-13 12:43:30 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-07-13 12:43:35 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-07-13 12:43:35 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2022-07-13 12:43:36 - [MESSAGE][PASSED] - Refresh successfully
+
+2022-07-13 12:43:36 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-07-13 12:43:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-07-13 12:43:39 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_EXPO/Events Main page/NGX Home/button_Admin Menu keyboard_arrow_down"), CONTINUE_ON_FAILURE): Object 'Object Repository/Page_EXPO/Events Main page/NGX Home/button_Admin Menu keyboard_arrow_down' is visible
+
+2022-07-13 12:43:41 - [MESSAGE][PASSED] - Object 'Object Repository/Page_EXPO/Events Main page/NGX Home/button_Admin Menu keyboard_arrow_down' is visible
+
+2022-07-13 12:43:41 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_EXPO/Events Main page/NGX Home/Attendee Access Status/button_Attendee Access ON"), CONTINUE_ON_FAILURE): Object 'Object Repository/Page_EXPO/Events Main page/NGX Home/Attendee Access Status/button_Attendee Access ON' is visible
+
+2022-07-13 12:43:41 - [MESSAGE][PASSED] - Object 'Object Repository/Page_EXPO/Events Main page/NGX Home/Attendee Access Status/button_Attendee Access ON' is visible
+
+2022-07-13 12:43:41 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_EXPO/Events Main page/NGX Home/Template Layout/span_During-Event"), CONTINUE_ON_FAILURE): Object 'Object Repository/Page_EXPO/Events Main page/NGX Home/Template Layout/span_During-Event' is visible
+
+2022-07-13 12:43:41 - [MESSAGE][PASSED] - Object 'Object Repository/Page_EXPO/Events Main page/NGX Home/Template Layout/span_During-Event' is visible
+
+2022-07-13 12:43:41 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_EXPO/Events Main page/NGX Home/button_Attendee Access"), CONTINUE_ON_FAILURE): Object 'Object Repository/Page_EXPO/Events Main page/NGX Home/button_Attendee Access' is visible
+
+2022-07-13 12:43:42 - [MESSAGE][PASSED] - Object 'Object Repository/Page_EXPO/Events Main page/NGX Home/button_Attendee Access' is visible
+
+2022-07-13 12:43:42 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_EXPO/Events Main page/NGX Home/button_Edit"), CONTINUE_ON_FAILURE): Object 'Object Repository/Page_EXPO/Events Main page/NGX Home/button_Edit' is visible
+
+2022-07-13 12:43:42 - [MESSAGE][PASSED] - Object 'Object Repository/Page_EXPO/Events Main page/NGX Home/button_Edit' is visible
+
+2022-07-13 12:43:42 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_EXPO/Events Main page/NGX Home/span_Template"), CONTINUE_ON_FAILURE): Object 'Object Repository/Page_EXPO/Events Main page/NGX Home/span_Template' is visible
+
+2022-07-13 12:43:42 - [MESSAGE][PASSED] - Object 'Object Repository/Page_EXPO/Events Main page/NGX Home/span_Template' is visible
+
+2022-07-13 12:43:42 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(eventHeaderObj), CONTINUE_ON_FAILURE): Object 'Object Repository/Page_EXPO/Events Main page/NGX Home/Event Headers/h1_Automation' is visible
+
+2022-07-13 12:43:43 - [MESSAGE][PASSED] - Object 'Object Repository/Page_EXPO/Events Main page/NGX Home/Event Headers/h1_Automation' is visible
+
+2022-07-13 12:43:43 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_EXPO/Events Main page/NGX Home/h4_Event Contacts"), CONTINUE_ON_FAILURE): Object 'Object Repository/Page_EXPO/Events Main page/NGX Home/h4_Event Contacts' is visible
+
+2022-07-13 12:43:43 - [MESSAGE][PASSED] - Object 'Object Repository/Page_EXPO/Events Main page/NGX Home/h4_Event Contacts' is visible
+
+2022-07-13 12:43:43 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_EXPO/Events Main page/NGX Home/h4_Resources"), CONTINUE_ON_FAILURE): Object 'Object Repository/Page_EXPO/Events Main page/NGX Home/h4_Resources' is visible
+
+2022-07-13 12:43:43 - [MESSAGE][PASSED] - Object 'Object Repository/Page_EXPO/Events Main page/NGX Home/h4_Resources' is visible
+
+2022-07-13 12:43:43 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_EXPO/Session Details/Event Specific/Automation/article_SponsorLets Go Flyers"), 7, CONTINUE_ON_FAILURE): Object 'Object Repository/Page_EXPO/Session Details/Event Specific/Automation/article_SponsorLets Go Flyers' is present
+
+2022-07-13 12:43:44 - [MESSAGE][PASSED] - Object 'Object Repository/Page_EXPO/Session Details/Event Specific/Automation/article_SponsorLets Go Flyers' is present
+
+2022-07-13 12:43:44 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(welcomeHomeImage), 3, CONTINUE_ON_FAILURE): Object 'Object Repository/Page_EXPO/Events Main page/NGX Home/Event Specific/Automation/img_Welcome fr-draggable' is present
+
+2022-07-13 12:43:44 - [MESSAGE][PASSED] - Object 'Object Repository/Page_EXPO/Events Main page/NGX Home/Event Specific/Automation/img_Welcome fr-draggable' is present
+
+2022-07-13 12:43:44 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_EXPO/Events Main page/NGX Home/Event Specific/Automation/div_RR Rick RollQAphone(847) 602-2372mailrickexpopasscom"), CONTINUE_ON_FAILURE): Object 'Object Repository/Page_EXPO/Events Main page/NGX Home/Event Specific/Automation/div_RR Rick RollQAphone(847) 602-2372mailrickexpopasscom' is visible
+
+2022-07-13 12:43:44 - [MESSAGE][PASSED] - Object 'Object Repository/Page_EXPO/Events Main page/NGX Home/Event Specific/Automation/div_RR Rick RollQAphone(847) 602-2372mailrickexpopasscom' is visible
+
+2022-07-13 12:43:44 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_EXPO/Events Main page/NGX Home/span_Video Player is loading_vjs-icon-placeholder"), 3, CONTINUE_ON_FAILURE): Object 'Object Repository/Page_EXPO/Events Main page/NGX Home/span_Video Player is loading_vjs-icon-placeholder' is present
+
+2022-07-13 12:43:45 - [MESSAGE][PASSED] - Object 'Object Repository/Page_EXPO/Events Main page/NGX Home/span_Video Player is loading_vjs-icon-placeholder' is present
+
+2022-07-13 12:43:45 - [TEST_STEP][PASSED] - navigateToUrl(scheduleURL): Navigate to 'https://rick.app.expopass.com/events/mjN8yX3/schedule' successfully
+
+2022-07-13 12:43:45 - [MESSAGE][PASSED] - Navigate to 'https://rick.app.expopass.com/events/mjN8yX3/schedule' successfully
+
+2022-07-13 12:43:45 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-07-13 12:43:50 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-07-13 12:43:50 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2022-07-13 12:43:50 - [MESSAGE][PASSED] - Refresh successfully
+
+2022-07-13 12:43:50 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-07-13 12:43:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-07-13 12:43:53 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_EXPO/Session List/h1_Schedule"), CONTINUE_ON_FAILURE): Object 'Object Repository/Page_EXPO/Session List/h1_Schedule' is visible
+
+2022-07-13 12:43:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_EXPO/Session List/h1_Schedule' is visible
+
+2022-07-13 12:43:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_EXPO/Session List/title_Event"), CONTINUE_ON_FAILURE): Object 'Object Repository/Page_EXPO/Session List/title_Event' is visible
+
+2022-07-13 12:43:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_EXPO/Session List/title_Event' is visible
+
+2022-07-13 12:43:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_EXPO/Session List/search_input"), CONTINUE_ON_FAILURE): Object 'Object Repository/Page_EXPO/Session List/search_input' is visible
+
+2022-07-13 12:43:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_EXPO/Session List/search_input' is visible
+
+2022-07-13 12:43:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_EXPO/Session List/h3_View"), CONTINUE_ON_FAILURE): Object 'Object Repository/Page_EXPO/Session List/h3_View' is visible
+
+2022-07-13 12:43:55 - [MESSAGE][PASSED] - Object 'Object Repository/Page_EXPO/Session List/h3_View' is visible
+
+2022-07-13 12:43:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_EXPO/Session List/View/li_Live"), CONTINUE_ON_FAILURE): Object 'Object Repository/Page_EXPO/Session List/View/li_Live' is visible
+
+2022-07-13 12:43:55 - [MESSAGE][PASSED] - Object 'Object Repository/Page_EXPO/Session List/View/li_Live' is visible
+
+2022-07-13 12:43:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_EXPO/Session List/View/li_My Schedule"), CONTINUE_ON_FAILURE): Object 'Object Repository/Page_EXPO/Session List/View/li_My Schedule' is visible
+
+2022-07-13 12:43:55 - [MESSAGE][PASSED] - Object 'Object Repository/Page_EXPO/Session List/View/li_My Schedule' is visible
+
+2022-07-13 12:43:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_EXPO/Session List/View/Active (Selected)/li_Event Schedule"), CONTINUE_ON_FAILURE): Object 'Object Repository/Page_EXPO/Session List/View/Active (Selected)/li_Event Schedule' is visible
+
+2022-07-13 12:43:56 - [MESSAGE][PASSED] - Object 'Object Repository/Page_EXPO/Session List/View/Active (Selected)/li_Event Schedule' is visible
+
+2022-07-13 12:43:56 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_EXPO/Session List/h3_Filters"), CONTINUE_ON_FAILURE): Object 'Object Repository/Page_EXPO/Session List/h3_Filters' is visible
+
+2022-07-13 12:43:56 - [MESSAGE][PASSED] - Object 'Object Repository/Page_EXPO/Session List/h3_Filters' is visible
+
+2022-07-13 12:43:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_EXPO/Session List/button_Filter"), 3, CONTINUE_ON_FAILURE): Object 'Object Repository/Page_EXPO/Session List/button_Filter' is present
+
+2022-07-13 12:43:56 - [MESSAGE][PASSED] - Object 'Object Repository/Page_EXPO/Session List/button_Filter' is present
+
+2022-07-13 12:43:56 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_EXPO/Session List/th_Start Time"), CONTINUE_ON_FAILURE): Object 'Object Repository/Page_EXPO/Session List/th_Start Time' is visible
+
+2022-07-13 12:43:57 - [MESSAGE][PASSED] - Object 'Object Repository/Page_EXPO/Session List/th_Start Time' is visible
+
+2022-07-13 12:43:57 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_EXPO/Session List/th_Title"), CONTINUE_ON_FAILURE): Object 'Object Repository/Page_EXPO/Session List/th_Title' is visible
+
+2022-07-13 12:43:57 - [MESSAGE][PASSED] - Object 'Object Repository/Page_EXPO/Session List/th_Title' is visible
+
+2022-07-13 12:43:57 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_EXPO/Session List/th_Length"), CONTINUE_ON_FAILURE): Object 'Object Repository/Page_EXPO/Session List/th_Length' is visible
+
+2022-07-13 12:43:57 - [MESSAGE][PASSED] - Object 'Object Repository/Page_EXPO/Session List/th_Length' is visible
+
+2022-07-13 12:43:57 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_EXPO/Session List/th_Speakers"), CONTINUE_ON_FAILURE): Object 'Object Repository/Page_EXPO/Session List/th_Speakers' is visible
+
+2022-07-13 12:43:58 - [MESSAGE][PASSED] - Object 'Object Repository/Page_EXPO/Session List/th_Speakers' is visible
+
+2022-07-13 12:43:58 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_EXPO/Session List/th_Location"), CONTINUE_ON_FAILURE): Object 'Object Repository/Page_EXPO/Session List/th_Location' is visible
+
+2022-07-13 12:43:58 - [MESSAGE][PASSED] - Object 'Object Repository/Page_EXPO/Session List/th_Location' is visible
+
+2022-07-13 12:43:58 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_EXPO/Session List/th_Speakers"), CONTINUE_ON_FAILURE): Object 'Object Repository/Page_EXPO/Session List/th_Speakers' is visible
+
+2022-07-13 12:43:58 - [MESSAGE][PASSED] - Object 'Object Repository/Page_EXPO/Session List/th_Speakers' is visible
+
+2022-07-13 12:43:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_EXPO/Session List/Event Specific/div_Filter_banner"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/Page_EXPO/Session List/Event Specific/div_Filter_banner' is present
+
+2022-07-13 12:43:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_EXPO/Session List/Event Specific/div_Filter_banner' is present
+
+2022-07-13 12:43:59 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_EXPO/Session List/View/li_Exhibitors"), CONTINUE_ON_FAILURE): Object 'Object Repository/Page_EXPO/Session List/View/li_Exhibitors' is visible
+
+2022-07-13 12:43:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_EXPO/Session List/View/li_Exhibitors' is visible
+
+2022-07-13 12:43:59 - [TEST_STEP][PASSED] - navigateToUrl(sessionURL_autoTestSession): Navigate to 'https://rick.app.expopass.com/events/mjN8yX3/sessions/pXgx8Oe' successfully
+
+2022-07-13 12:43:59 - [MESSAGE][PASSED] - Navigate to 'https://rick.app.expopass.com/events/mjN8yX3/sessions/pXgx8Oe' successfully
+
+2022-07-13 12:43:59 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-07-13 12:44:04 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-07-13 12:44:04 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2022-07-13 12:44:05 - [MESSAGE][PASSED] - Refresh successfully
+
+2022-07-13 12:44:05 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-07-13 12:44:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-07-13 12:44:08 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_EXPO/Session Details/button_Session Details"), CONTINUE_ON_FAILURE): Object 'Object Repository/Page_EXPO/Session Details/button_Session Details' is visible
+
+2022-07-13 12:44:08 - [MESSAGE][PASSED] - Object 'Object Repository/Page_EXPO/Session Details/button_Session Details' is visible
+
+2022-07-13 12:44:08 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_EXPO/Session Details/button_Update Session Icon"), CONTINUE_ON_FAILURE): Object 'Object Repository/Page_EXPO/Session Details/button_Update Session Icon' is visible
+
+2022-07-13 12:44:09 - [MESSAGE][PASSED] - Object 'Object Repository/Page_EXPO/Session Details/button_Update Session Icon' is visible
+
+2022-07-13 12:44:09 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_EXPO/Session Details/button_Edit"), CONTINUE_ON_FAILURE): Object 'Object Repository/Page_EXPO/Session Details/button_Edit' is visible
+
+2022-07-13 12:44:09 - [MESSAGE][PASSED] - Object 'Object Repository/Page_EXPO/Session Details/button_Edit' is visible
+
+2022-07-13 12:44:09 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_EXPO/Session List/title_Event"), CONTINUE_ON_FAILURE): Object 'Object Repository/Page_EXPO/Session List/title_Event' is visible
+
+2022-07-13 12:44:09 - [MESSAGE][PASSED] - Object 'Object Repository/Page_EXPO/Session List/title_Event' is visible
+
+2022-07-13 12:44:09 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_EXPO/Session Details/label_Back to Exhibitors"), CONTINUE_ON_FAILURE): Object 'Object Repository/Page_EXPO/Session Details/label_Back to Exhibitors' is visible
+
+2022-07-13 12:44:10 - [MESSAGE][PASSED] - Object 'Object Repository/Page_EXPO/Session Details/label_Back to Exhibitors' is visible
+
+2022-07-13 12:44:10 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_EXPO/Session Details/h4_Session Type"), CONTINUE_ON_FAILURE): Object 'Object Repository/Page_EXPO/Session Details/h4_Session Type' is visible
+
+2022-07-13 12:44:10 - [MESSAGE][PASSED] - Object 'Object Repository/Page_EXPO/Session Details/h4_Session Type' is visible
+
+2022-07-13 12:44:10 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_EXPO/Session Details/h4_Location"), CONTINUE_ON_FAILURE): Object 'Object Repository/Page_EXPO/Session Details/h4_Location' is visible
+
+2022-07-13 12:44:10 - [MESSAGE][PASSED] - Object 'Object Repository/Page_EXPO/Session Details/h4_Location' is visible
+
+2022-07-13 12:44:10 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_EXPO/Session Details/Event Specific/Automation/h3_Automation"), CONTINUE_ON_FAILURE): Object 'Object Repository/Page_EXPO/Session Details/Event Specific/Automation/h3_Automation' is visible
+
+2022-07-13 12:44:11 - [MESSAGE][PASSED] - Object 'Object Repository/Page_EXPO/Session Details/Event Specific/Automation/h3_Automation' is visible
+
+2022-07-13 12:44:11 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_EXPO/Session Details/Headers/h1_Auto Test Session"), CONTINUE_ON_FAILURE): Object 'Object Repository/Page_EXPO/Session Details/Headers/h1_Auto Test Session' is visible
+
+2022-07-13 12:44:11 - [MESSAGE][PASSED] - Object 'Object Repository/Page_EXPO/Session Details/Headers/h1_Auto Test Session' is visible
+
+2022-07-13 12:44:11 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_EXPO/Session Details/Event Specific/Automation/p_Exhibitor"), CONTINUE_ON_FAILURE): Object 'Object Repository/Page_EXPO/Session Details/Event Specific/Automation/p_Exhibitor' is visible
+
+2022-07-13 12:44:11 - [MESSAGE][PASSED] - Object 'Object Repository/Page_EXPO/Session Details/Event Specific/Automation/p_Exhibitor' is visible
+
+2022-07-13 12:44:11 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_EXPO/Session Details/Event Specific/Automation/p_Autoland"), CONTINUE_ON_FAILURE): Object 'Object Repository/Page_EXPO/Session Details/Event Specific/Automation/p_Autoland' is visible
+
+2022-07-13 12:44:12 - [MESSAGE][PASSED] - Object 'Object Repository/Page_EXPO/Session Details/Event Specific/Automation/p_Autoland' is visible
+
+2022-07-13 12:44:12 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_EXPO/Session Details/Event Specific/Automation/h5_Agent Boris"), CONTINUE_ON_FAILURE): Object 'Object Repository/Page_EXPO/Session Details/Event Specific/Automation/h5_Agent Boris' is visible
+
+2022-07-13 12:44:12 - [MESSAGE][PASSED] - Object 'Object Repository/Page_EXPO/Session Details/Event Specific/Automation/h5_Agent Boris' is visible
+
+2022-07-13 12:44:12 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_EXPO/Session Details/h4_Materials"), CONTINUE_ON_FAILURE): Object 'Object Repository/Page_EXPO/Session Details/h4_Materials' is visible
+
+2022-07-13 12:44:12 - [MESSAGE][PASSED] - Object 'Object Repository/Page_EXPO/Session Details/h4_Materials' is visible
+
+2022-07-13 12:44:12 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_EXPO/Session Details/Event Specific/Automation/button_OWjpgget_app"), CONTINUE_ON_FAILURE): Object 'Object Repository/Page_EXPO/Session Details/Event Specific/Automation/button_OWjpgget_app' is visible
+
+2022-07-13 12:44:12 - [MESSAGE][PASSED] - Object 'Object Repository/Page_EXPO/Session Details/Event Specific/Automation/button_OWjpgget_app' is visible
+
+2022-07-13 12:44:12 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_EXPO/Session Details/Event Specific/Automation/button_Join"), CONTINUE_ON_FAILURE): Object 'Object Repository/Page_EXPO/Session Details/Event Specific/Automation/button_Join' is visible
+
+2022-07-13 12:44:13 - [MESSAGE][PASSED] - Object 'Object Repository/Page_EXPO/Session Details/Event Specific/Automation/button_Join' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/General Functionality/Close Browser" time="0.778" classname="Test Cases/General Functionality/Close Browser" status="PASSED">
+         <system-out><![CDATA[2022-07-13 12:44:13 - [TEST_CASE][PASSED] - Test Cases/General Functionality/Close Browser: Test Cases/General Functionality/Close Browser
+
+2022-07-13 12:44:13 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-13 12:44:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-07-13 12:43:00 - [TEST_SUITE][PASSED] - Refresh Tests: Test Cases/General Functionality/Close Browser]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

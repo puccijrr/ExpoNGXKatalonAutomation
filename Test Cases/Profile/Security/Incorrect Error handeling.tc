@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Checks error messages with incorrect Current Password with correct new passwords), and missmatched New Password(s) (both combos with correct current password)</description>
+   <name>Incorrect Error handeling</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>086d7fdb-e317-4ca9-9999-aae995ce22cd</testCaseGuid>
+</TestCaseEntity>

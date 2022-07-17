@@ -1,0 +1,50 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Basic Login Tests,Firefox 66.0,,2019-05-03 16:50:14,2019-05-03 16:51:03,49.067s,PASSED
+,,,,,,
+Test Cases/Login Tests/No Email,Firefox 66.0,,2019-05-03 16:50:14,2019-05-03 16:50:26,11.809s,PASSED
+"openBrowser("""")",Firefox 66.0,,2019-05-03 16:50:14,2019-05-03 16:50:19,4.283s,PASSED
+"navigateToUrl(""http://expo-frontend.s3-website-us-west-2.amazonaws.com/#!/login"")",Firefox 66.0,,2019-05-03 16:50:19,2019-05-03 16:50:22,3.878s,PASSED
+"setText(findTestObject(""Page_EXPO/Login Objects/input_email""), ""fake@home.com"")",Firefox 66.0,,2019-05-03 16:50:22,2019-05-03 16:50:23,0.305s,PASSED
+"setEncryptedText(findTestObject(""Page_EXPO/Login Objects/input_password""), ""p4y+y39Ir5Oy1MY8jPt0uQ=="")",Firefox 66.0,,2019-05-03 16:50:23,2019-05-03 16:50:23,0.282s,PASSED
+"click(findTestObject(""Page_EXPO/Login Objects/div_log in""))",Firefox 66.0,,2019-05-03 16:50:23,2019-05-03 16:50:23,0.362s,PASSED
+"verifyElementPresent(findTestObject(""Page_EXPO/Login Objects/div_popup_Email not found""), 3)",Firefox 66.0,,2019-05-03 16:50:23,2019-05-03 16:50:25,1.540s,PASSED
+closeBrowser(),Firefox 66.0,,2019-05-03 16:50:25,2019-05-03 16:50:26,0.834s,PASSED
+,,,,,,
+Test Cases/Login Tests/Incorrect password,Firefox 66.0,,2019-05-03 16:50:26,2019-05-03 16:50:36,10.033s,PASSED
+"openBrowser("""")",Firefox 66.0,,2019-05-03 16:50:26,2019-05-03 16:50:29,2.926s,PASSED
+"navigateToUrl(""http://expo-frontend.s3-website-us-west-2.amazonaws.com/#!/login"")",Firefox 66.0,,2019-05-03 16:50:29,2019-05-03 16:50:34,4.785s,PASSED
+"setText(findTestObject(""Page_EXPO/Login Objects/input_email""), ""rick@expopass.com"")",Firefox 66.0,,2019-05-03 16:50:34,2019-05-03 16:50:34,0.285s,PASSED
+"setEncryptedText(findTestObject(""Page_EXPO/Login Objects/input_password""), ""o6CDTymj93o="")",Firefox 66.0,,2019-05-03 16:50:34,2019-05-03 16:50:34,0.129s,PASSED
+"click(findTestObject(""Page_EXPO/Login Objects/div_log in""))",Firefox 66.0,,2019-05-03 16:50:34,2019-05-03 16:50:34,0.390s,PASSED
+"verifyElementPresent(findTestObject(""Page_EXPO/Login Objects/div_popup_Your password or email address is not valid""), 3)",Firefox 66.0,,2019-05-03 16:50:34,2019-05-03 16:50:35,0.532s,PASSED
+closeBrowser(),Firefox 66.0,,2019-05-03 16:50:35,2019-05-03 16:50:36,0.806s,PASSED
+,,,,,,
+Test Cases/Login Tests/Forgot Password Link,Firefox 66.0,,2019-05-03 16:50:36,2019-05-03 16:50:45,9.379s,PASSED
+"openBrowser("""")",Firefox 66.0,,2019-05-03 16:50:36,2019-05-03 16:50:39,2.921s,PASSED
+"navigateToUrl(""http://expo-frontend.s3-website-us-west-2.amazonaws.com/#!/login"")",Firefox 66.0,,2019-05-03 16:50:39,2019-05-03 16:50:42,3.360s,PASSED
+"click(findTestObject(""Object Repository/Page_EXPO/Login Objects/a_Forgot password""))",Firefox 66.0,,2019-05-03 16:50:42,2019-05-03 16:50:42,0.089s,PASSED
+delay(2),Firefox 66.0,,2019-05-03 16:50:42,2019-05-03 16:50:44,2.037s,PASSED
+"verifyElementPresent(findTestObject(""Page_EXPO/Login Objects/div_submit_forgottenEmail_logo-holder""), 3, STOP_ON_FAILURE)",Firefox 66.0,,2019-05-03 16:50:44,2019-05-03 16:50:44,0.036s,PASSED
+closeBrowser(),Firefox 66.0,,2019-05-03 16:50:44,2019-05-03 16:50:45,0.796s,PASSED
+,,,,,,
+Test Cases/Login Tests/Login with Main Events check,Firefox 66.0,,2019-05-03 16:50:45,2019-05-03 16:51:02,16.635s,PASSED
+"openBrowser("""")",Firefox 66.0,,2019-05-03 16:50:45,2019-05-03 16:50:48,2.950s,PASSED
+"navigateToUrl(""http://expo-frontend.s3-website-us-west-2.amazonaws.com/#!/login"")",Firefox 66.0,,2019-05-03 16:50:48,2019-05-03 16:50:53,4.677s,PASSED
+"setText(findTestObject(""Page_EXPO/Login Objects/input_email""), ""rick@expopass.com"")",Firefox 66.0,,2019-05-03 16:50:53,2019-05-03 16:50:53,0.142s,PASSED
+"setEncryptedText(findTestObject(""Page_EXPO/Login Objects/input_password""), ""p4y+y39Ir5Oy1MY8jPt0uQ=="")",Firefox 66.0,,2019-05-03 16:50:53,2019-05-03 16:50:53,0.135s,PASSED
+"click(findTestObject(""Page_EXPO/Login Objects/div_log in""))",Firefox 66.0,,2019-05-03 16:50:53,2019-05-03 16:50:54,0.261s,PASSED
+delay(8),Firefox 66.0,,2019-05-03 16:50:54,2019-05-03 16:51:02,8.003s,PASSED
+check_login(),Firefox 66.0,,2019-05-03 16:51:02,2019-05-03 16:51:02,0.001s,PASSED
+log = new com.kms.katalon.core.logging.KeywordLogger(),Firefox 66.0,,2019-05-03 16:51:02,2019-05-03 16:51:02,0.000s,PASSED
+url_check = url = getUrl(),Firefox 66.0,,2019-05-03 16:51:02,2019-05-03 16:51:02,0.016s,PASSED
+"if (url_check == ""http://expo-frontend.s3-website-us-west-2.amazonaws.com/#!/events"")",Firefox 66.0,,2019-05-03 16:51:02,2019-05-03 16:51:02,0.007s,PASSED
+"verifyElementPresent(findTestObject(""Page_EXPO/Events Main page/div_CREATE AN EVENT""), 3, CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-03 16:51:02,2019-05-03 16:51:02,0.026s,PASSED
+"verifyElementPresent(findTestObject(""Page_EXPO/Events Main page/div_EXHIBITOR ACCESS""), 3, CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-03 16:51:02,2019-05-03 16:51:02,0.023s,PASSED
+"verifyElementPresent(findTestObject(""Page_EXPO/Events Main page/img_EXHIBITOR ACCESS_head-logo""), 3, CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-03 16:51:02,2019-05-03 16:51:02,0.029s,PASSED
+"verifyElementPresent(findTestObject(""Page_EXPO/Events Main page/p_My Events""), 3, CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-03 16:51:02,2019-05-03 16:51:02,0.023s,PASSED
+"verifyElementPresent(findTestObject(""Page_EXPO/Events Main page/p_Upcoming Events""), 3, CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-03 16:51:02,2019-05-03 16:51:02,0.031s,PASSED
+"verifyElementPresent(findTestObject(""Page_EXPO/Events Main page/Previous Events list/th_Previous Events""), 3, CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-03 16:51:02,2019-05-03 16:51:02,0.022s,PASSED
+"verifyElementPresent(findTestObject(""Page_EXPO/Events Main page/Previous Events list/th_Event Dates""), 3, CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-03 16:51:02,2019-05-03 16:51:02,0.022s,PASSED
+"verifyElementPresent(findTestObject(""Page_EXPO/Events Main page/Previous Events list/th_City""), 3, CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-03 16:51:02,2019-05-03 16:51:02,0.022s,PASSED
+"verifyElementPresent(findTestObject(""Page_EXPO/Events Main page/Previous Events list/th_State""), 3, CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-03 16:51:02,2019-05-03 16:51:02,0.023s,PASSED
+"verifyElementPresent(findTestObject(""Page_EXPO/Events Main page/Previous Events list/th_Role""), 3, CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-03 16:51:02,2019-05-03 16:51:02,0.024s,PASSED

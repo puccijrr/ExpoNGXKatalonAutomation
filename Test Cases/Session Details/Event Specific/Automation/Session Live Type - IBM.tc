@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Checks all live IBM setup requirements work for enableing save button IBM ID min and max allowed digits) and can create IBM live session</description>
+   <name>Session Live Type - IBM</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0870a477-a0ff-44f9-afb2-beb893ad41ed</testCaseGuid>
+</TestCaseEntity>

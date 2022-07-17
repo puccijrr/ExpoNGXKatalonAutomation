@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Make Changes</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0121d464-be89-49bd-991e-b4945793865b</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.login_Url</defaultValue>
+      <description></description>
+      <id>3abdf98d-70f9-45d4-9d02-2dcc3097036c</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.events</defaultValue>
+      <description></description>
+      <id>edc67919-7cf4-4459-bc1a-d946b9c3a512</id>
+      <masked>false</masked>
+      <name>events</name>
+   </variable>
+</TestCaseEntity>

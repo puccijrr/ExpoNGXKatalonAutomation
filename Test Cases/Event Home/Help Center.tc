@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Ensure Help Center admin menu item opens a new tab to the Organizer Help Center</description>
+   <name>Help Center</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>84b045dd-65c5-42b2-b63f-dee82f62ad5e</testCaseGuid>
+</TestCaseEntity>

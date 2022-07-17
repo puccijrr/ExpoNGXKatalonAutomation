@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Ensure Legacy link is found and loads</description>
+   <name>Exhibitor Access</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cd09f643-0b05-4b29-aa02-9d8250295009</testCaseGuid>
+</TestCaseEntity>

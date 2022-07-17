@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Confirms Save button correctly appears and then footer disapears after save click (after success popup).  Also ensure expected Event Setting change is made</description>
+   <name>Event Settings - Save Action</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a40cf46d-dd93-47f4-9605-0c4d8fded3da</testCaseGuid>
+</TestCaseEntity>

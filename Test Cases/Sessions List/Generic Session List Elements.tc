@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify Session Elements are present (for any event)</description>
+   <name>Generic Session List Elements</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cfd07ad6-c1f3-4684-b83f-ee3e8df1afdc</testCaseGuid>
+</TestCaseEntity>

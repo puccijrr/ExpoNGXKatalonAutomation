@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Search for an existing session on automation to ensure search functionality</description>
+   <name>Search For Session</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>faca4c1b-3469-4edb-842c-b725442e99db</testCaseGuid>
+</TestCaseEntity>

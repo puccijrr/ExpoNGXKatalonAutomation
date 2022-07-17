@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Checks all live Vimeo setup requirements work for enableing save button (Vimeo ID min and max allowed digits) and can create Vimeo live session</description>
+   <name>Session Live Type - Vimeo</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b833180a-cb39-483d-8f40-39bff07c0638</testCaseGuid>
+</TestCaseEntity>

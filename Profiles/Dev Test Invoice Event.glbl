@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>Dev Test Invoice Event</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description>Dev Login</description>
+      <initValue>'https://rick.web.expopass.com/#!/login'</initValue>
+      <name>login_Url</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'rick+super@expopass.com'</initValue>
+      <name>login</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Password1'</initValue>
+      <name>password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Dev URL</description>
+      <initValue>'https://api-dev.expopass.com'</initValue>
+      <name>url</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'v1.1'</initValue>
+      <name>webVersion</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>604</initValue>
+      <name>eventID</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Main reg level</description>
+      <initValue>1954</initValue>
+      <name>regLevelID</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>authorize token</description>
+      <initValue>'ea73cde24c5742568c90f321e255bfdb'</initValue>
+      <name>Authorization</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Main Event Web Cart</description>
+      <initValue>'https://rick.webcart.regform.com/#!/registration/Kendr2q/info'</initValue>
+      <name>eventCartURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Gets the bearer token from login</description>
+      <initValue>''</initValue>
+      <name>Bearer</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'rick+super@expopass.com'</initValue>
+      <name>username</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'3XTNVEmw9cLkhUfLSb5Ar3dCd5DgPansVxm9EDqh'</initValue>
+      <name>clientID</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>1564</initValue>
+      <name>conf</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

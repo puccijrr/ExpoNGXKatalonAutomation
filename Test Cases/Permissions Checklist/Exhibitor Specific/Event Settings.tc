@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Ensures that Event Settings cannot be accessed by exhibitor!</description>
+   <name>Event Settings</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>236e0317-fd72-4c99-acda-9ef9ac30e3c3</testCaseGuid>
+</TestCaseEntity>

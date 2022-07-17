@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>No Email (A1)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>46e84966-8082-413b-b0dd-009f10cdfb0f</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.login_Url</defaultValue>
+      <description></description>
+      <id>fd628ac5-b425-42cc-89a6-65d07af30cd4</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+</TestCaseEntity>

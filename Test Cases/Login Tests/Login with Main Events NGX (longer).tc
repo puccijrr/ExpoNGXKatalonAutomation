@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login with Main Events NGX (longer)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1bac0bcd-5a3e-4a09-b574-35ea6ff3864b</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.login_Url</defaultValue>
+      <description></description>
+      <id>c093ec34-170a-495e-91b8-c4c735a5d68b</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.events</defaultValue>
+      <description></description>
+      <id>3307545c-5ff4-4a17-9c4d-398b7048ef73</id>
+      <masked>false</masked>
+      <name>events</name>
+   </variable>
+</TestCaseEntity>

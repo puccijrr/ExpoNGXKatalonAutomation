@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Ensures that Badges cannot be accessed by attendee!</description>
+   <name>Badges</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>552469f1-5873-42e6-9b3f-7c14bae30267</testCaseGuid>
+</TestCaseEntity>

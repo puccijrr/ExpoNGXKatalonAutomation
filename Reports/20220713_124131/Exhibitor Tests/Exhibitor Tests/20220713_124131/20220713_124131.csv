@@ -1,0 +1,38 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Exhibitor Tests,Chrome 103.0.5060.114,Specific tests for Exhibitor Admin,,2022-07-13 12:41:33,2022-07-13 12:42:24,50.694s,PASSED
+,,,,,,,
+Test Cases/Session Details/Event Specific/Automation/Exhibitor Flow,Chrome 103.0.5060.114,Ensures can log in with exhibitor account and then all flow and correct urls through all NGX pages,,2022-07-13 12:41:33,2022-07-13 12:42:21,47.891s,PASSED
+"callTestCase(findTestCase(""Login Tests/Login with Main Events NGX (longer)""), [""url"":login_Url, ""events"":events], STOP_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-13 12:41:34,2022-07-13 12:42:01,27.376s,PASSED
+maximizeWindow(),Chrome 103.0.5060.114,,,2022-07-13 12:42:01,2022-07-13 12:42:01,0.133s,PASSED
+"click(findTestObject(""Object Repository/Page_EXPO/Events List NGX/search_input""))",Chrome 103.0.5060.114,,,2022-07-13 12:42:01,2022-07-13 12:42:02,0.451s,PASSED
+"setText(findTestObject(""Object Repository/Page_EXPO/Events List NGX/search_input""), ""automation"")",Chrome 103.0.5060.114,,,2022-07-13 12:42:02,2022-07-13 12:42:03,0.919s,PASSED
+delay(5),Chrome 103.0.5060.114,,,2022-07-13 12:42:03,2022-07-13 12:42:08,5.012s,PASSED
+"click(findTestObject(""Page_EXPO/Events List NGX/Event Specific/Automation/a_Enter keyboard_arrow_right""))",Chrome 103.0.5060.114,,,2022-07-13 12:42:08,2022-07-13 12:42:08,0.354s,PASSED
+delay(7),Chrome 103.0.5060.114,,,2022-07-13 12:42:08,2022-07-13 12:42:15,7.001s,PASSED
+check_link1(),Chrome 103.0.5060.114,,,2022-07-13 12:42:15,2022-07-13 12:42:15,0.000s,PASSED
+log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 103.0.5060.114,,,2022-07-13 12:42:15,2022-07-13 12:42:15,0.001s,PASSED
+url_check = url = getUrl(),Chrome 103.0.5060.114,,,2022-07-13 12:42:15,2022-07-13 12:42:15,0.009s,PASSED
+if (url_check == eventHomeURL),Chrome 103.0.5060.114,,,2022-07-13 12:42:15,2022-07-13 12:42:15,0.005s,PASSED
+"verifyElementPresent(findTestObject(eventHeaderObj), 2)",Chrome 103.0.5060.114,,,2022-07-13 12:42:15,2022-07-13 12:42:15,0.316s,PASSED
+"click(findTestObject(""Object Repository/Page_EXPO/Events Main page/NGX Home/li_Exhibitors""))",Chrome 103.0.5060.114,,,2022-07-13 12:42:15,2022-07-13 12:42:16,0.660s,PASSED
+delay(2),Chrome 103.0.5060.114,,,2022-07-13 12:42:16,2022-07-13 12:42:18,2.017s,PASSED
+check_link2(),Chrome 103.0.5060.114,,,2022-07-13 12:42:18,2022-07-13 12:42:18,0.000s,PASSED
+log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 103.0.5060.114,,,2022-07-13 12:42:18,2022-07-13 12:42:18,0.001s,PASSED
+url_check = url = getUrl(),Chrome 103.0.5060.114,,,2022-07-13 12:42:18,2022-07-13 12:42:18,0.006s,PASSED
+if (url_check == exhibitorsURL),Chrome 103.0.5060.114,,,2022-07-13 12:42:18,2022-07-13 12:42:18,0.002s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_EXPO/Session List/h1_Schedule""), 2)",Chrome 103.0.5060.114,,,2022-07-13 12:42:18,2022-07-13 12:42:18,0.310s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_EXPO/Session List/View/Active (Selected)/li_Exhibitors""), 2)",Chrome 103.0.5060.114,,,2022-07-13 12:42:18,2022-07-13 12:42:19,0.310s,PASSED
+"click(findTestObject(""Object Repository/Page_EXPO/Session List/Event Specific/Sessions/Automation/title_Auto Test Session""))",Chrome 103.0.5060.114,,,2022-07-13 12:42:19,2022-07-13 12:42:19,0.340s,PASSED
+delay(2),Chrome 103.0.5060.114,,,2022-07-13 12:42:19,2022-07-13 12:42:21,2.012s,PASSED
+check_link3(),Chrome 103.0.5060.114,,,2022-07-13 12:42:21,2022-07-13 12:42:21,0.000s,PASSED
+log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 103.0.5060.114,,,2022-07-13 12:42:21,2022-07-13 12:42:21,0.000s,PASSED
+url_check = url = getUrl(),Chrome 103.0.5060.114,,,2022-07-13 12:42:21,2022-07-13 12:42:21,0.007s,PASSED
+if (url_check == sessionURL_autoTestSession),Chrome 103.0.5060.114,,,2022-07-13 12:42:21,2022-07-13 12:42:21,0.001s,PASSED
+"verifyElementPresent(findTestObject(""Page_EXPO/Session Details/Headers/h1_Auto Test Session""), 3)",Chrome 103.0.5060.114,,,2022-07-13 12:42:21,2022-07-13 12:42:21,0.307s,PASSED
+,,,,,,,
+Test Cases/Left Nav/Exhibitor - Hidden Options,Chrome 103.0.5060.114,Ensures expected hidden items are not seen when logged in as exhibitor,,2022-07-13 12:42:21,2022-07-13 12:42:23,1.765s,PASSED
+delay(1),Chrome 103.0.5060.114,,,2022-07-13 12:42:22,2022-07-13 12:42:23,1.002s,PASSED
+"verifyElementNotPresent(findTestObject(""Object Repository/Page_EXPO/Events Main page/NGX Home/li_Sponsorships""), 2, CONTINUE_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-13 12:42:23,2022-07-13 12:42:23,0.443s,PASSED
+,,,,,,,
+Test Cases/General Functionality/Close Browser,Chrome 103.0.5060.114,Close out active browser (for test suites),,2022-07-13 12:42:23,2022-07-13 12:42:24,0.860s,PASSED
+closeBrowser(),Chrome 103.0.5060.114,,,2022-07-13 12:42:23,2022-07-13 12:42:24,0.667s,PASSED

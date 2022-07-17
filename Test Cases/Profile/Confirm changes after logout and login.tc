@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Confirm changes after logout and login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d14139d5-68ac-4844-9205-7d57c9284ba2</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.login_Url</defaultValue>
+      <description></description>
+      <id>e9b06651-36bd-476b-abe6-6ea10fb7db1f</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.events</defaultValue>
+      <description></description>
+      <id>518c6ae8-3f17-49be-bbaa-058bce4c4407</id>
+      <masked>false</masked>
+      <name>events</name>
+   </variable>
+</TestCaseEntity>

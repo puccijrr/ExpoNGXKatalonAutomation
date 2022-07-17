@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Ensure Help left nav opens a new tab to the Attendee Help Center (regardless of the user type)</description>
+   <name>Help</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f94b8817-9b06-47d5-8565-6b7acf2bf909</testCaseGuid>
+</TestCaseEntity>

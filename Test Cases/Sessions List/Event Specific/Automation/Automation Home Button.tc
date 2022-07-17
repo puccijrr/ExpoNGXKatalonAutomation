@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Should Return to Event Home</description>
+   <name>Automation Home Button</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f9453967-5139-446f-9ab3-b9b014ade531</testCaseGuid>
+</TestCaseEntity>

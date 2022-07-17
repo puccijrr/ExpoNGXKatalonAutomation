@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>Event Updater - Super Admin</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description>Dev Login</description>
+      <initValue>'https://rick.web.expopass.com/login'</initValue>
+      <name>login_Url</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'rick+super@expopass.com'</initValue>
+      <name>login</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Password1'</initValue>
+      <name>password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>631</initValue>
+      <name>eventID</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Main reg level</description>
+      <initValue>2028</initValue>
+      <name>regLevelID</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Main Event Web Cart</description>
+      <initValue>'https://rick.webcart.regform.com/#!/registration/Kendr2q/info'</initValue>
+      <name>eventCartURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Event to be updated</description>
+      <initValue>'https://rick.web.expopass.com/events/5jaOJXk/details'</initValue>
+      <name>eventURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Event Start Day</description>
+      <initValue>'td_23'</initValue>
+      <name>dayFrom</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Event End Day</description>
+      <initValue>'td_2'</initValue>
+      <name>dayTo</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

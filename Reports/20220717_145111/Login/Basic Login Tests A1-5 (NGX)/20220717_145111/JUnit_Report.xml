@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Basic Login Tests A1-5 (NGX)" time="5.033" tests="8" failures="0" errors="5">
+   <testsuite name="Basic Login Tests A1-5 (NGX)" tests="8" failures="0" errors="5" time="5.033" skipped="0" timestamp="2022-07-17 14:51:34" hostname="pucci - LAPTOP-EQ3CFHED" id="Test Suites/Login/Basic Login Tests A1-5 (NGX)">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\pucci\\git\\ExpoNGXKatalonAutomation\\Reports\\20220717_145111\\Login\\Basic Login Tests A1-5 (NGX)\\20220717_145111"/>
+         <property name="logFiles" value="C:\\Users\\pucci\\git\\ExpoNGXKatalonAutomation\\Reports\\20220717_145111\\Login\\Basic Login Tests A1-5 (NGX)\\20220717_145111\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="pucci - LAPTOP-EQ3CFHED"/>
+         <property name="hostAddress" value="192.168.0.196"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.4.0.208"/>
+      </properties>
+      <testcase name="Test Cases/Login Tests/No Email NGX" time="0.356" classname="Test Cases/Login Tests/No Email NGX" status="ERROR">
+         <error type="ERROR" message="Test Cases/Login Tests/No Email NGX FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/pucci/git/ExpoNGXKatalonAutomation/Scripts/Login%20Tests/No%20Email%20NGX/Script1573160965384.groovy: 18: unable to resolve class com.paulhammant.ngwebdriver.ByAngular
+ @ line 18, column 1.
+   import com.paulhammant.ngwebdriver.ByAngular
+   ^
+
+file:/C:/Users/pucci/git/ExpoNGXKatalonAutomation/Scripts/Login%20Tests/No%20Email%20NGX/Script1573160965384.groovy: 20: unable to resolve class com.paulhammant.ngwebdriver.NgWebDriver
+ @ line 20, column 1.
+   import com.paulhammant.ngwebdriver.NgWebDriver
+   ^
+
+2 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658087471890.run(TempTestSuite1658087471890.groovy:36)
+"/>
+         <system-out><![CDATA[2022-07-17 14:51:35 - [TEST_CASE][ERROR] - Test Cases/Login Tests/No Email NGX: Test Cases/Login Tests/No Email NGX FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/pucci/git/ExpoNGXKatalonAutomation/Scripts/Login%20Tests/No%20Email%20NGX/Script1573160965384.groovy: 18: unable to resolve class com.paulhammant.ngwebdriver.ByAngular
+ @ line 18, column 1.
+   import com.paulhammant.ngwebdriver.ByAngular
+   ^
+
+file:/C:/Users/pucci/git/ExpoNGXKatalonAutomation/Scripts/Login%20Tests/No%20Email%20NGX/Script1573160965384.groovy: 20: unable to resolve class com.paulhammant.ngwebdriver.NgWebDriver
+ @ line 20, column 1.
+   import com.paulhammant.ngwebdriver.NgWebDriver
+   ^
+
+2 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658087471890.run(TempTestSuite1658087471890.groovy:36)]]></system-out>
+         <system-err><![CDATA[2022-07-17 14:51:35 - [TEST_CASE][ERROR] - Test Cases/Login Tests/No Email NGX: Test Cases/Login Tests/No Email NGX FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/pucci/git/ExpoNGXKatalonAutomation/Scripts/Login%20Tests/No%20Email%20NGX/Script1573160965384.groovy: 18: unable to resolve class com.paulhammant.ngwebdriver.ByAngular
+ @ line 18, column 1.
+   import com.paulhammant.ngwebdriver.ByAngular
+   ^
+
+file:/C:/Users/pucci/git/ExpoNGXKatalonAutomation/Scripts/Login%20Tests/No%20Email%20NGX/Script1573160965384.groovy: 20: unable to resolve class com.paulhammant.ngwebdriver.NgWebDriver
+ @ line 20, column 1.
+   import com.paulhammant.ngwebdriver.NgWebDriver
+   ^
+
+2 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658087471890.run(TempTestSuite1658087471890.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/General Functionality/Wait 3 seconds" time="3.286" classname="Test Cases/General Functionality/Wait 3 seconds" status="PASSED">
+         <system-out><![CDATA[2022-07-17 14:51:35 - [TEST_CASE][PASSED] - Test Cases/General Functionality/Wait 3 seconds: Test Cases/General Functionality/Wait 3 seconds
+
+2022-07-17 14:51:35 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-07-17 14:51:38 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Tests/Incorrect password NGX" time="0.195" classname="Test Cases/Login Tests/Incorrect password NGX" status="ERROR">
+         <error type="ERROR" message="Test Cases/Login Tests/Incorrect password NGX FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/pucci/git/ExpoNGXKatalonAutomation/Scripts/Login%20Tests/Incorrect%20password%20NGX/Script1578343786958.groovy: 18: unable to resolve class com.paulhammant.ngwebdriver.ByAngular
+ @ line 18, column 1.
+   import com.paulhammant.ngwebdriver.ByAngular
+   ^
+
+file:/C:/Users/pucci/git/ExpoNGXKatalonAutomation/Scripts/Login%20Tests/Incorrect%20password%20NGX/Script1578343786958.groovy: 20: unable to resolve class com.paulhammant.ngwebdriver.NgWebDriver
+ @ line 20, column 1.
+   import com.paulhammant.ngwebdriver.NgWebDriver
+   ^
+
+2 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658087471890.run(TempTestSuite1658087471890.groovy:36)
+"/>
+         <system-out><![CDATA[2022-07-17 14:51:38 - [TEST_CASE][ERROR] - Test Cases/Login Tests/Incorrect password NGX: Test Cases/Login Tests/Incorrect password NGX FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/pucci/git/ExpoNGXKatalonAutomation/Scripts/Login%20Tests/Incorrect%20password%20NGX/Script1578343786958.groovy: 18: unable to resolve class com.paulhammant.ngwebdriver.ByAngular
+ @ line 18, column 1.
+   import com.paulhammant.ngwebdriver.ByAngular
+   ^
+
+file:/C:/Users/pucci/git/ExpoNGXKatalonAutomation/Scripts/Login%20Tests/Incorrect%20password%20NGX/Script1578343786958.groovy: 20: unable to resolve class com.paulhammant.ngwebdriver.NgWebDriver
+ @ line 20, column 1.
+   import com.paulhammant.ngwebdriver.NgWebDriver
+   ^
+
+2 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658087471890.run(TempTestSuite1658087471890.groovy:36)]]></system-out>
+         <system-err><![CDATA[2022-07-17 14:51:38 - [TEST_CASE][ERROR] - Test Cases/Login Tests/Incorrect password NGX: Test Cases/Login Tests/Incorrect password NGX FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/pucci/git/ExpoNGXKatalonAutomation/Scripts/Login%20Tests/Incorrect%20password%20NGX/Script1578343786958.groovy: 18: unable to resolve class com.paulhammant.ngwebdriver.ByAngular
+ @ line 18, column 1.
+   import com.paulhammant.ngwebdriver.ByAngular
+   ^
+
+file:/C:/Users/pucci/git/ExpoNGXKatalonAutomation/Scripts/Login%20Tests/Incorrect%20password%20NGX/Script1578343786958.groovy: 20: unable to resolve class com.paulhammant.ngwebdriver.NgWebDriver
+ @ line 20, column 1.
+   import com.paulhammant.ngwebdriver.NgWebDriver
+   ^
+
+2 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658087471890.run(TempTestSuite1658087471890.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Tests/Forgot Password Link NGX" time="0.197" classname="Test Cases/Login Tests/Forgot Password Link NGX" status="ERROR">
+         <error type="ERROR" message="Test Cases/Login Tests/Forgot Password Link NGX FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/pucci/git/ExpoNGXKatalonAutomation/Scripts/Login%20Tests/Forgot%20Password%20Link%20NGX/Script1578350403770.groovy: 18: unable to resolve class com.paulhammant.ngwebdriver.ByAngular
+ @ line 18, column 1.
+   import com.paulhammant.ngwebdriver.ByAngular
+   ^
+
+file:/C:/Users/pucci/git/ExpoNGXKatalonAutomation/Scripts/Login%20Tests/Forgot%20Password%20Link%20NGX/Script1578350403770.groovy: 20: unable to resolve class com.paulhammant.ngwebdriver.NgWebDriver
+ @ line 20, column 1.
+   import com.paulhammant.ngwebdriver.NgWebDriver
+   ^
+
+2 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658087471890.run(TempTestSuite1658087471890.groovy:36)
+"/>
+         <system-out><![CDATA[2022-07-17 14:51:38 - [TEST_CASE][ERROR] - Test Cases/Login Tests/Forgot Password Link NGX: Test Cases/Login Tests/Forgot Password Link NGX FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/pucci/git/ExpoNGXKatalonAutomation/Scripts/Login%20Tests/Forgot%20Password%20Link%20NGX/Script1578350403770.groovy: 18: unable to resolve class com.paulhammant.ngwebdriver.ByAngular
+ @ line 18, column 1.
+   import com.paulhammant.ngwebdriver.ByAngular
+   ^
+
+file:/C:/Users/pucci/git/ExpoNGXKatalonAutomation/Scripts/Login%20Tests/Forgot%20Password%20Link%20NGX/Script1578350403770.groovy: 20: unable to resolve class com.paulhammant.ngwebdriver.NgWebDriver
+ @ line 20, column 1.
+   import com.paulhammant.ngwebdriver.NgWebDriver
+   ^
+
+2 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658087471890.run(TempTestSuite1658087471890.groovy:36)]]></system-out>
+         <system-err><![CDATA[2022-07-17 14:51:38 - [TEST_CASE][ERROR] - Test Cases/Login Tests/Forgot Password Link NGX: Test Cases/Login Tests/Forgot Password Link NGX FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/pucci/git/ExpoNGXKatalonAutomation/Scripts/Login%20Tests/Forgot%20Password%20Link%20NGX/Script1578350403770.groovy: 18: unable to resolve class com.paulhammant.ngwebdriver.ByAngular
+ @ line 18, column 1.
+   import com.paulhammant.ngwebdriver.ByAngular
+   ^
+
+file:/C:/Users/pucci/git/ExpoNGXKatalonAutomation/Scripts/Login%20Tests/Forgot%20Password%20Link%20NGX/Script1578350403770.groovy: 20: unable to resolve class com.paulhammant.ngwebdriver.NgWebDriver
+ @ line 20, column 1.
+   import com.paulhammant.ngwebdriver.NgWebDriver
+   ^
+
+2 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658087471890.run(TempTestSuite1658087471890.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Tests/Login with Case Sensitive NGX" time="0.253" classname="Test Cases/Login Tests/Login with Case Sensitive NGX" status="ERROR">
+         <error type="ERROR" message="Test Cases/Login Tests/Login with Case Sensitive NGX FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/pucci/git/ExpoNGXKatalonAutomation/Scripts/Login%20Tests/Login%20with%20Case%20Sensitive%20NGX/Script1635200471703.groovy: 14: unable to resolve class com.paulhammant.ngwebdriver.ByAngular
+ @ line 14, column 1.
+   import com.paulhammant.ngwebdriver.ByAngular as ByAngular
+   ^
+
+file:/C:/Users/pucci/git/ExpoNGXKatalonAutomation/Scripts/Login%20Tests/Login%20with%20Case%20Sensitive%20NGX/Script1635200471703.groovy: 16: unable to resolve class com.paulhammant.ngwebdriver.NgWebDriver
+ @ line 16, column 1.
+   import com.paulhammant.ngwebdriver.NgWebDriver as NgWebDriver
+   ^
+
+2 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658087471890.run(TempTestSuite1658087471890.groovy:36)
+"/>
+         <system-out><![CDATA[2022-07-17 14:51:39 - [TEST_CASE][ERROR] - Test Cases/Login Tests/Login with Case Sensitive NGX: Test Cases/Login Tests/Login with Case Sensitive NGX FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/pucci/git/ExpoNGXKatalonAutomation/Scripts/Login%20Tests/Login%20with%20Case%20Sensitive%20NGX/Script1635200471703.groovy: 14: unable to resolve class com.paulhammant.ngwebdriver.ByAngular
+ @ line 14, column 1.
+   import com.paulhammant.ngwebdriver.ByAngular as ByAngular
+   ^
+
+file:/C:/Users/pucci/git/ExpoNGXKatalonAutomation/Scripts/Login%20Tests/Login%20with%20Case%20Sensitive%20NGX/Script1635200471703.groovy: 16: unable to resolve class com.paulhammant.ngwebdriver.NgWebDriver
+ @ line 16, column 1.
+   import com.paulhammant.ngwebdriver.NgWebDriver as NgWebDriver
+   ^
+
+2 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658087471890.run(TempTestSuite1658087471890.groovy:36)]]></system-out>
+         <system-err><![CDATA[2022-07-17 14:51:39 - [TEST_CASE][ERROR] - Test Cases/Login Tests/Login with Case Sensitive NGX: Test Cases/Login Tests/Login with Case Sensitive NGX FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/pucci/git/ExpoNGXKatalonAutomation/Scripts/Login%20Tests/Login%20with%20Case%20Sensitive%20NGX/Script1635200471703.groovy: 14: unable to resolve class com.paulhammant.ngwebdriver.ByAngular
+ @ line 14, column 1.
+   import com.paulhammant.ngwebdriver.ByAngular as ByAngular
+   ^
+
+file:/C:/Users/pucci/git/ExpoNGXKatalonAutomation/Scripts/Login%20Tests/Login%20with%20Case%20Sensitive%20NGX/Script1635200471703.groovy: 16: unable to resolve class com.paulhammant.ngwebdriver.NgWebDriver
+ @ line 16, column 1.
+   import com.paulhammant.ngwebdriver.NgWebDriver as NgWebDriver
+   ^
+
+2 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658087471890.run(TempTestSuite1658087471890.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/General Functionality/Close Browser" time="0.271" classname="Test Cases/General Functionality/Close Browser" status="PASSED">
+         <system-out><![CDATA[2022-07-17 14:51:39 - [TEST_CASE][PASSED] - Test Cases/General Functionality/Close Browser: Test Cases/General Functionality/Close Browser
+
+2022-07-17 14:51:39 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-17 14:51:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Tests/Login with Main Events NGX" time="0.252" classname="Test Cases/Login Tests/Login with Main Events NGX" status="ERROR">
+         <error type="ERROR" message="Test Cases/Login Tests/Login with Main Events NGX FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/pucci/git/ExpoNGXKatalonAutomation/Scripts/Login%20Tests/Login%20with%20Main%20Events%20NGX/Script1585772442855.groovy: 14: unable to resolve class com.paulhammant.ngwebdriver.ByAngular
+ @ line 14, column 1.
+   import com.paulhammant.ngwebdriver.ByAngular as ByAngular
+   ^
+
+file:/C:/Users/pucci/git/ExpoNGXKatalonAutomation/Scripts/Login%20Tests/Login%20with%20Main%20Events%20NGX/Script1585772442855.groovy: 16: unable to resolve class com.paulhammant.ngwebdriver.NgWebDriver
+ @ line 16, column 1.
+   import com.paulhammant.ngwebdriver.NgWebDriver as NgWebDriver
+   ^
+
+2 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658087471890.run(TempTestSuite1658087471890.groovy:36)
+"/>
+         <system-out><![CDATA[2022-07-17 14:51:39 - [TEST_CASE][ERROR] - Test Cases/Login Tests/Login with Main Events NGX: Test Cases/Login Tests/Login with Main Events NGX FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/pucci/git/ExpoNGXKatalonAutomation/Scripts/Login%20Tests/Login%20with%20Main%20Events%20NGX/Script1585772442855.groovy: 14: unable to resolve class com.paulhammant.ngwebdriver.ByAngular
+ @ line 14, column 1.
+   import com.paulhammant.ngwebdriver.ByAngular as ByAngular
+   ^
+
+file:/C:/Users/pucci/git/ExpoNGXKatalonAutomation/Scripts/Login%20Tests/Login%20with%20Main%20Events%20NGX/Script1585772442855.groovy: 16: unable to resolve class com.paulhammant.ngwebdriver.NgWebDriver
+ @ line 16, column 1.
+   import com.paulhammant.ngwebdriver.NgWebDriver as NgWebDriver
+   ^
+
+2 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658087471890.run(TempTestSuite1658087471890.groovy:36)]]></system-out>
+         <system-err><![CDATA[2022-07-17 14:51:39 - [TEST_CASE][ERROR] - Test Cases/Login Tests/Login with Main Events NGX: Test Cases/Login Tests/Login with Main Events NGX FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/pucci/git/ExpoNGXKatalonAutomation/Scripts/Login%20Tests/Login%20with%20Main%20Events%20NGX/Script1585772442855.groovy: 14: unable to resolve class com.paulhammant.ngwebdriver.ByAngular
+ @ line 14, column 1.
+   import com.paulhammant.ngwebdriver.ByAngular as ByAngular
+   ^
+
+file:/C:/Users/pucci/git/ExpoNGXKatalonAutomation/Scripts/Login%20Tests/Login%20with%20Main%20Events%20NGX/Script1585772442855.groovy: 16: unable to resolve class com.paulhammant.ngwebdriver.NgWebDriver
+ @ line 16, column 1.
+   import com.paulhammant.ngwebdriver.NgWebDriver as NgWebDriver
+   ^
+
+2 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658087471890.run(TempTestSuite1658087471890.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/General Functionality/Close Browser" time="0.008" classname="Test Cases/General Functionality/Close Browser" status="PASSED">
+         <system-out><![CDATA[2022-07-17 14:51:39 - [TEST_CASE][PASSED] - Test Cases/General Functionality/Close Browser: Test Cases/General Functionality/Close Browser
+
+2022-07-17 14:51:39 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-17 14:51:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-07-17 14:51:34 - [TEST_SUITE][ERROR] - Basic Login Tests A1-5 (NGX): Test Cases/Login Tests/No Email NGX FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/pucci/git/ExpoNGXKatalonAutomation/Scripts/Login%20Tests/No%20Email%20NGX/Script1573160965384.groovy: 18: unable to resolve class com.paulhammant.ngwebdriver.ByAngular
+ @ line 18, column 1.
+   import com.paulhammant.ngwebdriver.ByAngular
+   ^
+
+file:/C:/Users/pucci/git/ExpoNGXKatalonAutomation/Scripts/Login%20Tests/No%20Email%20NGX/Script1573160965384.groovy: 20: unable to resolve class com.paulhammant.ngwebdriver.NgWebDriver
+ @ line 20, column 1.
+   import com.paulhammant.ngwebdriver.NgWebDriver
+   ^
+
+2 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658087471890.run(TempTestSuite1658087471890.groovy:36)]]></system-out>
+      <system-err><![CDATA[2022-07-17 14:51:34 - [TEST_SUITE][ERROR] - Basic Login Tests A1-5 (NGX): Test Cases/Login Tests/No Email NGX FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/pucci/git/ExpoNGXKatalonAutomation/Scripts/Login%20Tests/No%20Email%20NGX/Script1573160965384.groovy: 18: unable to resolve class com.paulhammant.ngwebdriver.ByAngular
+ @ line 18, column 1.
+   import com.paulhammant.ngwebdriver.ByAngular
+   ^
+
+file:/C:/Users/pucci/git/ExpoNGXKatalonAutomation/Scripts/Login%20Tests/No%20Email%20NGX/Script1573160965384.groovy: 20: unable to resolve class com.paulhammant.ngwebdriver.NgWebDriver
+ @ line 20, column 1.
+   import com.paulhammant.ngwebdriver.NgWebDriver
+   ^
+
+2 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658087471890.run(TempTestSuite1658087471890.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

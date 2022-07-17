@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Ensures that Event Settings cannot be accessed by attendee!</description>
+   <name>Event Settings</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>90d9e8b0-7799-4ace-835e-53cbc943f95e</testCaseGuid>
+</TestCaseEntity>

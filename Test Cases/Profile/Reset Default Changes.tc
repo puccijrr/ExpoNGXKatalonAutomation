@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Reset Default Changes</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>821ec11e-cd7a-4652-9b7f-209f31a807ad</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.login_Url</defaultValue>
+      <description></description>
+      <id>27a2d98e-b54d-4f13-b43f-c36a8e504cb1</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.events</defaultValue>
+      <description></description>
+      <id>95cc2f4e-43f7-44cd-a79a-6494f4099764</id>
+      <masked>false</masked>
+      <name>events</name>
+   </variable>
+</TestCaseEntity>

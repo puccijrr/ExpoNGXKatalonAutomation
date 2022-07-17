@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Basic Login Tests" time="49" tests="4" failures="0" errors="0">
+   <testsuite name="Basic Login Tests" tests="4" failures="0" errors="0" time="49" timestamp="2019-05-03 16:50:14" hostname="Rick - 192.168.0.21" id="Test Suites/Basic Login Tests">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Rick\\Katalon Studio\\Expo Main\\Reports\\Basic Login Tests\\20190503_165011"/>
+         <property name="logFiles" value="C:\\Users\\Rick\\Katalon Studio\\Expo Main\\Reports\\Basic Login Tests\\20190503_165011\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Rick - 192.168.0.21"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.1.1"/>
+         <property name="browser" value="Firefox 66.0"/>
+         <property name="hostAddress" value="192.168.0.21"/>
+         <property name="sessionId" value="328e636f-fdf2-4aa2-a312-d61c24a75b82"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login Tests/No Email" classname="Test Cases/Login Tests/No Email" status="PASSED">
+         <system-out><![CDATA[2019-05-03 16:50:14 - [TEST_CASE][PASSED] - Test Cases/Login Tests/No Email: Test Cases/Login Tests/No Email
+
+2019-05-03 16:50:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-03 16:50:15 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-05-03 16:50:15 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-05-03 16:50:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-03 16:50:19 - [TEST_STEP][PASSED] - navigateToUrl("http://expo-frontend.s3-website-us-west-2.amazonaws.com/#!/login"): Navigate to 'http://expo-frontend.s3-website-us-west-2.amazonaws.com/#!/login' successfully
+
+2019-05-03 16:50:22 - [MESSAGE][PASSED] - Navigate to 'http://expo-frontend.s3-website-us-west-2.amazonaws.com/#!/login' successfully
+
+2019-05-03 16:50:22 - [TEST_STEP][PASSED] - setText(findTestObject("Page_EXPO/Login Objects/input_email"), "fake@home.com"): Text 'fake@home.com' is set on object 'Object Repository/Page_EXPO/Login Objects/input_email'
+
+2019-05-03 16:50:23 - [MESSAGE][PASSED] - Text 'fake@home.com' is set on object 'Object Repository/Page_EXPO/Login Objects/input_email'
+
+2019-05-03 16:50:23 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_EXPO/Login Objects/input_password"), "p4y+y39Ir5Oy1MY8jPt0uQ=="): Text ****** has been set on object 'Object Repository/Page_EXPO/Login Objects/input_password'
+
+2019-05-03 16:50:23 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_EXPO/Login Objects/input_password'
+
+2019-05-03 16:50:23 - [TEST_STEP][PASSED] - click(findTestObject("Page_EXPO/Login Objects/div_log in")): Object: 'Object Repository/Page_EXPO/Login Objects/div_log in' is clicked on
+
+2019-05-03 16:50:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_EXPO/Login Objects/div_log in' is clicked on
+
+2019-05-03 16:50:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_EXPO/Login Objects/div_popup_Email not found"), 3): Object 'Object Repository/Page_EXPO/Login Objects/div_popup_Email not found' is present
+
+2019-05-03 16:50:25 - [MESSAGE][PASSED] - Object 'Object Repository/Page_EXPO/Login Objects/div_popup_Email not found' is present
+
+2019-05-03 16:50:25 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-05-03 16:50:26 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Tests/Incorrect password" classname="Test Cases/Login Tests/Incorrect password" status="PASSED">
+         <system-out><![CDATA[2019-05-03 16:50:26 - [TEST_CASE][PASSED] - Test Cases/Login Tests/Incorrect password: Test Cases/Login Tests/Incorrect password
+
+2019-05-03 16:50:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-03 16:50:26 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-05-03 16:50:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-03 16:50:29 - [TEST_STEP][PASSED] - navigateToUrl("http://expo-frontend.s3-website-us-west-2.amazonaws.com/#!/login"): Navigate to 'http://expo-frontend.s3-website-us-west-2.amazonaws.com/#!/login' successfully
+
+2019-05-03 16:50:34 - [MESSAGE][PASSED] - Navigate to 'http://expo-frontend.s3-website-us-west-2.amazonaws.com/#!/login' successfully
+
+2019-05-03 16:50:34 - [TEST_STEP][PASSED] - setText(findTestObject("Page_EXPO/Login Objects/input_email"), "rick@expopass.com"): Text 'rick@expopass.com' is set on object 'Object Repository/Page_EXPO/Login Objects/input_email'
+
+2019-05-03 16:50:34 - [MESSAGE][PASSED] - Text 'rick@expopass.com' is set on object 'Object Repository/Page_EXPO/Login Objects/input_email'
+
+2019-05-03 16:50:34 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_EXPO/Login Objects/input_password"), "o6CDTymj93o="): Text ****** has been set on object 'Object Repository/Page_EXPO/Login Objects/input_password'
+
+2019-05-03 16:50:34 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_EXPO/Login Objects/input_password'
+
+2019-05-03 16:50:34 - [TEST_STEP][PASSED] - click(findTestObject("Page_EXPO/Login Objects/div_log in")): Object: 'Object Repository/Page_EXPO/Login Objects/div_log in' is clicked on
+
+2019-05-03 16:50:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_EXPO/Login Objects/div_log in' is clicked on
+
+2019-05-03 16:50:34 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_EXPO/Login Objects/div_popup_Your password or email address is not valid"), 3): Object 'Object Repository/Page_EXPO/Login Objects/div_popup_Your password or email address is not valid' is present
+
+2019-05-03 16:50:35 - [MESSAGE][PASSED] - Object 'Object Repository/Page_EXPO/Login Objects/div_popup_Your password or email address is not valid' is present
+
+2019-05-03 16:50:35 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-05-03 16:50:36 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Tests/Forgot Password Link" classname="Test Cases/Login Tests/Forgot Password Link" status="PASSED">
+         <system-out><![CDATA[2019-05-03 16:50:36 - [TEST_CASE][PASSED] - Test Cases/Login Tests/Forgot Password Link: Test Cases/Login Tests/Forgot Password Link
+
+2019-05-03 16:50:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-03 16:50:36 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-05-03 16:50:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-03 16:50:39 - [TEST_STEP][PASSED] - navigateToUrl("http://expo-frontend.s3-website-us-west-2.amazonaws.com/#!/login"): Navigate to 'http://expo-frontend.s3-website-us-west-2.amazonaws.com/#!/login' successfully
+
+2019-05-03 16:50:42 - [MESSAGE][PASSED] - Navigate to 'http://expo-frontend.s3-website-us-west-2.amazonaws.com/#!/login' successfully
+
+2019-05-03 16:50:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_EXPO/Login Objects/a_Forgot password")): Object: 'Object Repository/Page_EXPO/Login Objects/a_Forgot password' is clicked on
+
+2019-05-03 16:50:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_EXPO/Login Objects/a_Forgot password' is clicked on
+
+2019-05-03 16:50:42 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-03 16:50:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-03 16:50:44 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_EXPO/Login Objects/div_submit_forgottenEmail_logo-holder"), 3, STOP_ON_FAILURE): Object 'Object Repository/Page_EXPO/Login Objects/div_submit_forgottenEmail_logo-holder' is present
+
+2019-05-03 16:50:44 - [MESSAGE][PASSED] - Object 'Object Repository/Page_EXPO/Login Objects/div_submit_forgottenEmail_logo-holder' is present
+
+2019-05-03 16:50:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-05-03 16:50:45 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Tests/Login with Main Events check" classname="Test Cases/Login Tests/Login with Main Events check" status="PASSED">
+         <system-out><![CDATA[2019-05-03 16:50:45 - [TEST_CASE][PASSED] - Test Cases/Login Tests/Login with Main Events check: Test Cases/Login Tests/Login with Main Events check
+
+2019-05-03 16:50:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-03 16:50:45 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-05-03 16:50:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-03 16:50:48 - [TEST_STEP][PASSED] - navigateToUrl("http://expo-frontend.s3-website-us-west-2.amazonaws.com/#!/login"): Navigate to 'http://expo-frontend.s3-website-us-west-2.amazonaws.com/#!/login' successfully
+
+2019-05-03 16:50:53 - [MESSAGE][PASSED] - Navigate to 'http://expo-frontend.s3-website-us-west-2.amazonaws.com/#!/login' successfully
+
+2019-05-03 16:50:53 - [TEST_STEP][PASSED] - setText(findTestObject("Page_EXPO/Login Objects/input_email"), "rick@expopass.com"): Text 'rick@expopass.com' is set on object 'Object Repository/Page_EXPO/Login Objects/input_email'
+
+2019-05-03 16:50:53 - [MESSAGE][PASSED] - Text 'rick@expopass.com' is set on object 'Object Repository/Page_EXPO/Login Objects/input_email'
+
+2019-05-03 16:50:53 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_EXPO/Login Objects/input_password"), "p4y+y39Ir5Oy1MY8jPt0uQ=="): Text ****** has been set on object 'Object Repository/Page_EXPO/Login Objects/input_password'
+
+2019-05-03 16:50:53 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_EXPO/Login Objects/input_password'
+
+2019-05-03 16:50:53 - [TEST_STEP][PASSED] - click(findTestObject("Page_EXPO/Login Objects/div_log in")): Object: 'Object Repository/Page_EXPO/Login Objects/div_log in' is clicked on
+
+2019-05-03 16:50:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_EXPO/Login Objects/div_log in' is clicked on
+
+2019-05-03 16:50:54 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+2019-05-03 16:51:02 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2019-05-03 16:51:02 - [TEST_STEP][PASSED] - check_login(): null
+
+2019-05-03 16:51:02 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2019-05-03 16:51:02 - [TEST_STEP][PASSED] - url_check = url = getUrl(): Current window's url is: 'http://expo-frontend.s3-website-us-west-2.amazonaws.com/#!/events'
+
+2019-05-03 16:51:02 - [MESSAGE][PASSED] - Current window's url is: 'http://expo-frontend.s3-website-us-west-2.amazonaws.com/#!/events'
+
+2019-05-03 16:51:02 - [TEST_STEP][PASSED] - if (url_check == "http://expo-frontend.s3-website-us-west-2.amazonaws.com/#!/events"): http://expo-frontend.s3-website-us-west-2.amazonaws.com/#!/events
+
+2019-05-03 16:51:02 - [TEST_STEP][PASSED] - markPassed("PASS: the correct URL was found after clicking the login button"): PASS: the correct URL was found after clicking the login button
+
+2019-05-03 16:51:02 - [MESSAGE][PASSED] - PASS: the correct URL was found after clicking the login button
+
+2019-05-03 16:51:02 - [TEST_STEP][PASSED] - log.logInfo(url_check): http://expo-frontend.s3-website-us-west-2.amazonaws.com/#!/events
+
+2019-05-03 16:51:02 - [MESSAGE][INFO] - http://expo-frontend.s3-website-us-west-2.amazonaws.com/#!/events
+
+2019-05-03 16:51:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_EXPO/Events Main page/div_CREATE AN EVENT"), 3, CONTINUE_ON_FAILURE): Object 'Object Repository/Page_EXPO/Events Main page/div_CREATE AN EVENT' is present
+
+2019-05-03 16:51:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page_EXPO/Events Main page/div_CREATE AN EVENT' is present
+
+2019-05-03 16:51:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_EXPO/Events Main page/div_EXHIBITOR ACCESS"), 3, CONTINUE_ON_FAILURE): Object 'Object Repository/Page_EXPO/Events Main page/div_EXHIBITOR ACCESS' is present
+
+2019-05-03 16:51:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page_EXPO/Events Main page/div_EXHIBITOR ACCESS' is present
+
+2019-05-03 16:51:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_EXPO/Events Main page/img_EXHIBITOR ACCESS_head-logo"), 3, CONTINUE_ON_FAILURE): Object 'Object Repository/Page_EXPO/Events Main page/img_EXHIBITOR ACCESS_head-logo' is present
+
+2019-05-03 16:51:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page_EXPO/Events Main page/img_EXHIBITOR ACCESS_head-logo' is present
+
+2019-05-03 16:51:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_EXPO/Events Main page/p_My Events"), 3, CONTINUE_ON_FAILURE): Object 'Object Repository/Page_EXPO/Events Main page/p_My Events' is present
+
+2019-05-03 16:51:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page_EXPO/Events Main page/p_My Events' is present
+
+2019-05-03 16:51:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_EXPO/Events Main page/p_Upcoming Events"), 3, CONTINUE_ON_FAILURE): Object 'Object Repository/Page_EXPO/Events Main page/p_Upcoming Events' is present
+
+2019-05-03 16:51:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page_EXPO/Events Main page/p_Upcoming Events' is present
+
+2019-05-03 16:51:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_EXPO/Events Main page/Previous Events list/th_Previous Events"), 3, CONTINUE_ON_FAILURE): Object 'Object Repository/Page_EXPO/Events Main page/Previous Events list/th_Previous Events' is present
+
+2019-05-03 16:51:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page_EXPO/Events Main page/Previous Events list/th_Previous Events' is present
+
+2019-05-03 16:51:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_EXPO/Events Main page/Previous Events list/th_Event Dates"), 3, CONTINUE_ON_FAILURE): Object 'Object Repository/Page_EXPO/Events Main page/Previous Events list/th_Event Dates' is present
+
+2019-05-03 16:51:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page_EXPO/Events Main page/Previous Events list/th_Event Dates' is present
+
+2019-05-03 16:51:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_EXPO/Events Main page/Previous Events list/th_City"), 3, CONTINUE_ON_FAILURE): Object 'Object Repository/Page_EXPO/Events Main page/Previous Events list/th_City' is present
+
+2019-05-03 16:51:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page_EXPO/Events Main page/Previous Events list/th_City' is present
+
+2019-05-03 16:51:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_EXPO/Events Main page/Previous Events list/th_State"), 3, CONTINUE_ON_FAILURE): Object 'Object Repository/Page_EXPO/Events Main page/Previous Events list/th_State' is present
+
+2019-05-03 16:51:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page_EXPO/Events Main page/Previous Events list/th_State' is present
+
+2019-05-03 16:51:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_EXPO/Events Main page/Previous Events list/th_Role"), 3, CONTINUE_ON_FAILURE): Object 'Object Repository/Page_EXPO/Events Main page/Previous Events list/th_Role' is present
+
+2019-05-03 16:51:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page_EXPO/Events Main page/Previous Events list/th_Role' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-05-03 16:50:14 - [TEST_SUITE][PASSED] - Basic Login Tests: Test Cases/Login Tests/Login with Main Events check]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

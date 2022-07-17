@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify Form and state of button (A6)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4195985a-e3e1-4375-8c44-3e08ec4572cc</testCaseGuid>
+   <variable>
+      <defaultValue>'New'</defaultValue>
+      <description></description>
+      <id>1fd37aa6-1e5d-4495-b00b-fbeda765520e</id>
+      <masked>false</masked>
+      <name>firstName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Account1'</defaultValue>
+      <description></description>
+      <id>491d1427-0026-432d-a992-d0a8b30898d4</id>
+      <masked>false</masked>
+      <name>lastName</name>
+   </variable>
+   <variable>
+      <defaultValue>'rick+super875@expopass.com'</defaultValue>
+      <description></description>
+      <id>6465bc3c-67f5-453a-afd4-b3cfefc82131</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'Password1\r\n'</defaultValue>
+      <description></description>
+      <id>986817d5-6578-48fc-a998-93ae5fb89218</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'Password1\r\n'</defaultValue>
+      <description></description>
+      <id>7412d869-86d3-47c4-a9c1-a84685e9a40f</id>
+      <masked>false</masked>
+      <name>confPassword</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.login_Url</defaultValue>
+      <description></description>
+      <id>59ee4889-3e8e-41f6-b408-1a1e99884fbc</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Filter_banner</name>
+   <tag></tag>
+   <elementGuidId>6228501b-a351-42aa-96f7-ab4db3ab3b60</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//section[@id='sessions']/section[2]/section/div/app-sponsors-carousel/section/div/div/a/article/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>banner</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;sessions&quot;)/section[@class=&quot;body&quot;]/section[@class=&quot;filtering&quot;]/div[@class=&quot;banner-ads&quot;]/app-sponsors-carousel[1]/section[@class=&quot;swipe banner-ad banner_on_sessions_list visible ng-star-inserted&quot;]/div[@class=&quot;swipe-wrap ng-star-inserted&quot;]/div[@class=&quot;ng-star-inserted&quot;]/a[1]/article[1]/div[@class=&quot;banner&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='sessions']/section[2]/section/div/app-sponsors-carousel/section/div/div/a/article/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//article/div</value>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Ensure Schedule hamburger nav goes to Sessions List with url with correct page AND view option selected</description>
+   <name>Schedule</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9ffdd91c-754c-422f-8701-ba0bb300c53b</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Checks that default file upload video can be added/created and succesfully played</description>
+   <name>Session Video Type - File Upload</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b540b808-34ef-46db-abdc-b9744b828458</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Ensures that all expected static session details elements are found</description>
+   <name>Generic Session Details Elements</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cfe1a5d5-ea19-44f5-9233-b0d1903ceebf</testCaseGuid>
+</TestCaseEntity>

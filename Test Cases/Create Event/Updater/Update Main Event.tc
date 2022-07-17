@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Update event dates and current session</description>
+   <name>Update Main Event</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b66d5490-d1d0-4548-a592-3412c721ff63</testCaseGuid>
+</TestCaseEntity>

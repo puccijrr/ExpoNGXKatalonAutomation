@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Checks that expected action buttons for URL and Exhibitor types are found and displayed</description>
+   <name>Action Button Elements</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>437e2d9a-5c57-45f3-b24b-157210eb4a76</testCaseGuid>
+</TestCaseEntity>

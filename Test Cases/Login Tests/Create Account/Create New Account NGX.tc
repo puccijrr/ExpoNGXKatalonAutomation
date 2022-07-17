@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create New Account NGX</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8f05e4e1-4c2c-4894-b11f-91ae7f6ddac9</testCaseGuid>
+   <variable>
+      <defaultValue>'New'</defaultValue>
+      <description></description>
+      <id>e654d89d-6e5e-4201-ac5d-345a92ce6ae7</id>
+      <masked>false</masked>
+      <name>firstName</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.newAccount_lName</defaultValue>
+      <description></description>
+      <id>be37f2c0-e1b2-4f53-98d0-48d1c03c2bb0</id>
+      <masked>false</masked>
+      <name>lastName</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.newAccount_email</defaultValue>
+      <description></description>
+      <id>9347a53e-fe20-416d-bb76-8e4ed33ee928</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'Password1\r\n'</defaultValue>
+      <description></description>
+      <id>5ed9ea2c-4abb-47df-989c-661213d0415b</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'Password1\r\n'</defaultValue>
+      <description></description>
+      <id>dd66532f-3481-4fa5-bd28-691853341c70</id>
+      <masked>false</masked>
+      <name>confPassword</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.login_Url</defaultValue>
+      <description></description>
+      <id>d72e0675-2420-4707-b5e9-8222577e20fd</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Exhibitor Tests" time="50.694" tests="3" failures="0" errors="0">
+   <testsuite name="Exhibitor Tests" tests="3" failures="0" errors="0" time="50.694" skipped="0" timestamp="2022-07-13 12:41:33" hostname="pucci - LAPTOP-EQ3CFHED" id="Test Suites/Exhibitor Tests/Exhibitor Tests">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\pucci\\Programming\\katalon-automation\\Expo Main\\Reports\\20220713_124131\\Exhibitor Tests\\Exhibitor Tests\\20220713_124131"/>
+         <property name="logFiles" value="C:\\Users\\pucci\\Programming\\katalon-automation\\Expo Main\\Reports\\20220713_124131\\Exhibitor Tests\\Exhibitor Tests\\20220713_124131\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="pucci - LAPTOP-EQ3CFHED"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.3.5.208"/>
+         <property name="browser" value="Chrome 103.0.5060.114"/>
+         <property name="hostAddress" value="192.168.0.196"/>
+         <property name="sessionId" value="191a59e6b1bfd2a40064c236ae176039"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Session Details/Event Specific/Automation/Exhibitor Flow" time="47.891" classname="Test Cases/Session Details/Event Specific/Automation/Exhibitor Flow" status="PASSED">
+         <system-out><![CDATA[2022-07-13 12:41:33 - [TEST_CASE][PASSED] - Test Cases/Session Details/Event Specific/Automation/Exhibitor Flow: Test Cases/Session Details/Event Specific/Automation/Exhibitor Flow
+
+2022-07-13 12:41:34 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login Tests/Login with Main Events NGX (longer)"), ["url":login_Url, "events":events], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login Tests/Login with Main Events NGX (longer)' successfully
+
+2022-07-13 12:41:34 - [TEST_CASE][PASSED] - Test Cases/Login Tests/Login with Main Events NGX (longer): Test Cases/Login Tests/Login with Main Events NGX (longer)
+
+2022-07-13 12:41:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-13 12:41:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-13 12:41:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-13 12:41:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-13 12:41:36 - [TEST_STEP][PASSED] - navigateToUrl(login_Url): Navigate to 'https://rick.app.expopass.com/login' successfully
+
+2022-07-13 12:41:39 - [MESSAGE][PASSED] - Navigate to 'https://rick.app.expopass.com/login' successfully
+
+2022-07-13 12:41:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_EXPO/Login Objects/input_Email Address_ngx"), login): Text 'rick+ex@expopass.com' is set on object 'Object Repository/Page_EXPO/Login Objects/input_Email Address_ngx'
+
+2022-07-13 12:41:40 - [MESSAGE][PASSED] - Text 'rick+ex@expopass.com' is set on object 'Object Repository/Page_EXPO/Login Objects/input_Email Address_ngx'
+
+2022-07-13 12:41:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_EXPO/Login Objects/input_Password_ngx"), password): Text 'Password1' is set on object 'Object Repository/Page_EXPO/Login Objects/input_Password_ngx'
+
+2022-07-13 12:41:41 - [MESSAGE][PASSED] - Text 'Password1' is set on object 'Object Repository/Page_EXPO/Login Objects/input_Password_ngx'
+
+2022-07-13 12:41:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_EXPO/Login Objects/button_Login_ngx")): Object: 'Object Repository/Page_EXPO/Login Objects/button_Login_ngx' is clicked on
+
+2022-07-13 12:41:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_EXPO/Login Objects/button_Login_ngx' is clicked on
+
+2022-07-13 12:41:41 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-07-13 12:42:01 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-07-13 12:42:01 - [TEST_STEP][PASSED] - check_login(): null
+
+2022-07-13 12:42:01 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2022-07-13 12:42:01 - [TEST_STEP][PASSED] - url_check = url = getUrl(): Current window's url is: 'https://rick.app.expopass.com/events'
+
+2022-07-13 12:42:01 - [MESSAGE][PASSED] - Current window's url is: 'https://rick.app.expopass.com/events'
+
+2022-07-13 12:42:01 - [TEST_STEP][PASSED] - if (url_check == events): https://rick.app.expopass.com/events
+
+2022-07-13 12:42:01 - [TEST_STEP][PASSED] - markPassed("PASS: the correct URL was found after clicking the login button"): PASS: the correct URL was found after clicking the login button
+
+2022-07-13 12:42:01 - [MESSAGE][PASSED] - PASS: the correct URL was found after clicking the login button
+
+2022-07-13 12:42:01 - [TEST_STEP][PASSED] - log.logInfo(url_check): https://rick.app.expopass.com/events
+
+2022-07-13 12:42:01 - [MESSAGE][INFO] - https://rick.app.expopass.com/events
+
+2022-07-13 12:42:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login Tests/Login with Main Events NGX (longer)' successfully
+
+2022-07-13 12:42:01 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-07-13 12:42:01 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-13 12:42:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_EXPO/Events List NGX/search_input")): Object: 'Object Repository/Page_EXPO/Events List NGX/search_input' is clicked on
+
+2022-07-13 12:42:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_EXPO/Events List NGX/search_input' is clicked on
+
+2022-07-13 12:42:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_EXPO/Events List NGX/search_input"), "automation"): Text 'automation' is set on object 'Object Repository/Page_EXPO/Events List NGX/search_input'
+
+2022-07-13 12:42:03 - [MESSAGE][PASSED] - Text 'automation' is set on object 'Object Repository/Page_EXPO/Events List NGX/search_input'
+
+2022-07-13 12:42:03 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-07-13 12:42:08 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-07-13 12:42:08 - [TEST_STEP][PASSED] - click(findTestObject("Page_EXPO/Events List NGX/Event Specific/Automation/a_Enter keyboard_arrow_right")): Object: 'Object Repository/Page_EXPO/Events List NGX/Event Specific/Automation/a_Enter keyboard_arrow_right' is clicked on
+
+2022-07-13 12:42:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_EXPO/Events List NGX/Event Specific/Automation/a_Enter keyboard_arrow_right' is clicked on
+
+2022-07-13 12:42:08 - [TEST_STEP][PASSED] - delay(7): Delayed 7 second(s)
+
+2022-07-13 12:42:15 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2022-07-13 12:42:15 - [TEST_STEP][PASSED] - check_link1(): null
+
+2022-07-13 12:42:15 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2022-07-13 12:42:15 - [TEST_STEP][PASSED] - url_check = url = getUrl(): Current window's url is: 'https://rick.app.expopass.com/events/mjN8yX3'
+
+2022-07-13 12:42:15 - [MESSAGE][PASSED] - Current window's url is: 'https://rick.app.expopass.com/events/mjN8yX3'
+
+2022-07-13 12:42:15 - [TEST_STEP][PASSED] - if (url_check == eventHomeURL): https://rick.app.expopass.com/events/mjN8yX3
+
+2022-07-13 12:42:15 - [TEST_STEP][PASSED] - markPassed("PASS: the correct URL was found after entering event"): PASS: the correct URL was found after entering event
+
+2022-07-13 12:42:15 - [MESSAGE][PASSED] - PASS: the correct URL was found after entering event
+
+2022-07-13 12:42:15 - [TEST_STEP][PASSED] - log.logInfo(url_check): https://rick.app.expopass.com/events/mjN8yX3
+
+2022-07-13 12:42:15 - [MESSAGE][INFO] - https://rick.app.expopass.com/events/mjN8yX3
+
+2022-07-13 12:42:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(eventHeaderObj), 2): Object 'Object Repository/Page_EXPO/Events Main page/NGX Home/Event Headers/h1_Automation' is present
+
+2022-07-13 12:42:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_EXPO/Events Main page/NGX Home/Event Headers/h1_Automation' is present
+
+2022-07-13 12:42:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_EXPO/Events Main page/NGX Home/li_Exhibitors")): Object: 'Object Repository/Page_EXPO/Events Main page/NGX Home/li_Exhibitors' is clicked on
+
+2022-07-13 12:42:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_EXPO/Events Main page/NGX Home/li_Exhibitors' is clicked on
+
+2022-07-13 12:42:16 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-07-13 12:42:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-07-13 12:42:18 - [TEST_STEP][PASSED] - check_link2(): null
+
+2022-07-13 12:42:18 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2022-07-13 12:42:18 - [TEST_STEP][PASSED] - url_check = url = getUrl(): Current window's url is: 'https://rick.app.expopass.com/events/mjN8yX3/schedule?view=Exhibitors'
+
+2022-07-13 12:42:18 - [MESSAGE][PASSED] - Current window's url is: 'https://rick.app.expopass.com/events/mjN8yX3/schedule?view=Exhibitors'
+
+2022-07-13 12:42:18 - [TEST_STEP][PASSED] - if (url_check == exhibitorsURL): https://rick.app.expopass.com/events/mjN8yX3/schedule?view=Exhibitors
+
+2022-07-13 12:42:18 - [TEST_STEP][PASSED] - markPassed("PASS: the correct URL was found after clicking the Exhibitors button"): PASS: the correct URL was found after clicking the Exhibitors button
+
+2022-07-13 12:42:18 - [MESSAGE][PASSED] - PASS: the correct URL was found after clicking the Exhibitors button
+
+2022-07-13 12:42:18 - [TEST_STEP][PASSED] - log.logInfo(url_check): https://rick.app.expopass.com/events/mjN8yX3/schedule?view=Exhibitors
+
+2022-07-13 12:42:18 - [MESSAGE][INFO] - https://rick.app.expopass.com/events/mjN8yX3/schedule?view=Exhibitors
+
+2022-07-13 12:42:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_EXPO/Session List/h1_Schedule"), 2): Object 'Object Repository/Page_EXPO/Session List/h1_Schedule' is present
+
+2022-07-13 12:42:18 - [MESSAGE][PASSED] - Object 'Object Repository/Page_EXPO/Session List/h1_Schedule' is present
+
+2022-07-13 12:42:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_EXPO/Session List/View/Active (Selected)/li_Exhibitors"), 2): Object 'Object Repository/Page_EXPO/Session List/View/Active (Selected)/li_Exhibitors' is present
+
+2022-07-13 12:42:19 - [MESSAGE][PASSED] - Object 'Object Repository/Page_EXPO/Session List/View/Active (Selected)/li_Exhibitors' is present
+
+2022-07-13 12:42:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_EXPO/Session List/Event Specific/Sessions/Automation/title_Auto Test Session")): Object: 'Object Repository/Page_EXPO/Session List/Event Specific/Sessions/Automation/title_Auto Test Session' is clicked on
+
+2022-07-13 12:42:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_EXPO/Session List/Event Specific/Sessions/Automation/title_Auto Test Session' is clicked on
+
+2022-07-13 12:42:19 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-07-13 12:42:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-07-13 12:42:21 - [TEST_STEP][PASSED] - check_link3(): null
+
+2022-07-13 12:42:21 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2022-07-13 12:42:21 - [TEST_STEP][PASSED] - url_check = url = getUrl(): Current window's url is: 'https://rick.app.expopass.com/events/mjN8yX3/sessions/pXgx8Oe'
+
+2022-07-13 12:42:21 - [MESSAGE][PASSED] - Current window's url is: 'https://rick.app.expopass.com/events/mjN8yX3/sessions/pXgx8Oe'
+
+2022-07-13 12:42:21 - [TEST_STEP][PASSED] - if (url_check == sessionURL_autoTestSession): https://rick.app.expopass.com/events/mjN8yX3/sessions/pXgx8Oe
+
+2022-07-13 12:42:21 - [TEST_STEP][PASSED] - markPassed("PASS: the correct URL was found after clicking the Session"): PASS: the correct URL was found after clicking the Session
+
+2022-07-13 12:42:21 - [MESSAGE][PASSED] - PASS: the correct URL was found after clicking the Session
+
+2022-07-13 12:42:21 - [TEST_STEP][PASSED] - log.logInfo(url_check): https://rick.app.expopass.com/events/mjN8yX3/sessions/pXgx8Oe
+
+2022-07-13 12:42:21 - [MESSAGE][INFO] - https://rick.app.expopass.com/events/mjN8yX3/sessions/pXgx8Oe
+
+2022-07-13 12:42:21 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_EXPO/Session Details/Headers/h1_Auto Test Session"), 3): Object 'Object Repository/Page_EXPO/Session Details/Headers/h1_Auto Test Session' is present
+
+2022-07-13 12:42:21 - [MESSAGE][PASSED] - Object 'Object Repository/Page_EXPO/Session Details/Headers/h1_Auto Test Session' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Left Nav/Exhibitor - Hidden Options" time="1.765" classname="Test Cases/Left Nav/Exhibitor - Hidden Options" status="PASSED">
+         <system-out><![CDATA[2022-07-13 12:42:21 - [TEST_CASE][PASSED] - Test Cases/Left Nav/Exhibitor - Hidden Options: Test Cases/Left Nav/Exhibitor - Hidden Options
+
+2022-07-13 12:42:22 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-07-13 12:42:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-07-13 12:42:23 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Object Repository/Page_EXPO/Events Main page/NGX Home/li_Sponsorships"), 2, CONTINUE_ON_FAILURE): Web element with id: 'Object Repository/Page_EXPO/Events Main page/NGX Home/li_Sponsorships' located by 'By.xpath: //*[(text() = 'Sponsorships' or . = 'Sponsorships')]' is not present after '2' second(s)
+
+2022-07-13 12:42:23 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_EXPO/Events Main page/NGX Home/li_Sponsorships' located by 'By.xpath: //*[(text() = 'Sponsorships' or . = 'Sponsorships')]' is not present after '2' second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/General Functionality/Close Browser" time="0.86" classname="Test Cases/General Functionality/Close Browser" status="PASSED">
+         <system-out><![CDATA[2022-07-13 12:42:23 - [TEST_CASE][PASSED] - Test Cases/General Functionality/Close Browser: Test Cases/General Functionality/Close Browser
+
+2022-07-13 12:42:23 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-13 12:42:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-07-13 12:41:33 - [TEST_SUITE][PASSED] - Exhibitor Tests: Test Cases/General Functionality/Close Browser]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

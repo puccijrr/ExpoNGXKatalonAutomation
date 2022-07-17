@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Checks that all default session video types (URL, video file, Live - Zoom, and Theater) can be added/created and correct success popup appears</description>
+   <name>Session Video Updates</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>afc5ac95-0406-4d04-8eb4-797a572f1788</testCaseGuid>
+</TestCaseEntity>

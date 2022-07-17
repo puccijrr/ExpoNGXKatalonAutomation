@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Ensures can log in with exhibitor account and then all flow and correct urls through all NGX pages</description>
+   <name>Exhibitor Flow</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a2197c8e-a0a3-4bb7-8c5e-acefbc6b244b</testCaseGuid>
+</TestCaseEntity>

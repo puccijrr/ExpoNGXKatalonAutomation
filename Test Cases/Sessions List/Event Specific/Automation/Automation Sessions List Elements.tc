@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Ensure all expected dynamic Automation sessions list elements are found</description>
+   <name>Automation Sessions List Elements</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>60df692a-1147-4124-ad29-d77dd8066cd6</testCaseGuid>
+</TestCaseEntity>

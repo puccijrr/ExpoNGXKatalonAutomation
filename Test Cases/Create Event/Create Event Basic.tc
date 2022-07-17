@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Event Basic</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b8374ff8-37e0-44fc-af8e-3391468ac36b</testCaseGuid>
+   <variable>
+      <defaultValue>'Lead Retreval Test'</defaultValue>
+      <description></description>
+      <id>5704cd4a-50d5-4d5c-ab9d-f846c8988eeb</id>
+      <masked>false</masked>
+      <name>eventName</name>
+   </variable>
+   <variable>
+      <defaultValue>'www.bla.com'</defaultValue>
+      <description></description>
+      <id>b247c4f5-a01d-48e7-9213-903fcf5da9ce</id>
+      <masked>false</masked>
+      <name>eventSite</name>
+   </variable>
+   <variable>
+      <defaultValue>'Lead Location'</defaultValue>
+      <description></description>
+      <id>2e0e1a0c-1dda-4d82-b898-0927462ea460</id>
+      <masked>false</masked>
+      <name>venue</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e95833b3-2cb3-45fe-abd0-a7e7d974e82b</id>
+      <masked>false</masked>
+      <name>phone</name>
+   </variable>
+   <variable>
+      <defaultValue>'1000 Vin Scully Ave'</defaultValue>
+      <description></description>
+      <id>3fe2e633-45ba-4186-af1d-5626e4674206</id>
+      <masked>false</masked>
+      <name>address</name>
+   </variable>
+   <variable>
+      <defaultValue>'Los Angeles'</defaultValue>
+      <description></description>
+      <id>ca858c18-fc0d-4eb2-b1b2-5441729c6e4c</id>
+      <masked>false</masked>
+      <name>city</name>
+   </variable>
+   <variable>
+      <defaultValue>'CA'</defaultValue>
+      <description></description>
+      <id>63e0f78e-a2e7-4165-9fcb-d7971708856d</id>
+      <masked>false</masked>
+      <name>stateCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'90012'</defaultValue>
+      <description></description>
+      <id>2462d1af-c032-456c-a6a6-6fc49812a0af</id>
+      <masked>false</masked>
+      <name>zip</name>
+   </variable>
+   <variable>
+      <defaultValue>'US'</defaultValue>
+      <description></description>
+      <id>653377fb-06b4-4b7f-8d31-de0af534bd14</id>
+      <masked>false</masked>
+      <name>countryCode</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>03064805-1121-42a0-bcf7-8e36e1ec2317</id>
+      <masked>false</masked>
+      <name>venueSite</name>
+   </variable>
+</TestCaseEntity>

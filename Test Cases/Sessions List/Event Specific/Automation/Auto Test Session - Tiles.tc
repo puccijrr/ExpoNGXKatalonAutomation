@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Ensures that all tiles are correct on specific session</description>
+   <name>Auto Test Session - Tiles</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6da207a1-5ec8-454d-a896-55c416e45312</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Tests Attendee My Schedule and Add/Remove functionality</description>
+   <name>Attendee - Schedule</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ebbaabc9-326d-49a5-8530-72d31e7de69a</testCaseGuid>
+</TestCaseEntity>

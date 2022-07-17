@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Ensure all expected admin menu items are found for an event owner/fully permissioned admin user</description>
+   <name>Admin Toolbar Menu Items</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d51db3c6-8be2-4b74-ae82-c4c182cc701b</testCaseGuid>
+</TestCaseEntity>

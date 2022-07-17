@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Session Details link</description>
+   <name>Session Details (NOT in schedule)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>594273b1-0eb9-4597-bc4b-151d17da55e3</testCaseGuid>
+</TestCaseEntity>

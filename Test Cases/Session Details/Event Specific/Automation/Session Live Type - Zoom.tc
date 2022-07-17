@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Checks all zoom setup requirements work for enableing save button (Zoom ID min and max allowed digits and password), can create Zoom session, and enters correct waiting room</description>
+   <name>Session Live Type - Zoom</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a0018cda-06fb-4661-8712-cee5e4266523</testCaseGuid>
+</TestCaseEntity>

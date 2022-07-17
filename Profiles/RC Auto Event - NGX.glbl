@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>RC Auto Event - NGX</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description>Dev Login</description>
+      <initValue>'https://rc.app.expopass.com/login'</initValue>
+      <name>login_Url</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'rick@expopass.com'</initValue>
+      <name>login</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Testing Case Sensitivity</description>
+      <initValue>'Rick@Expopass.com'</initValue>
+      <name>loginSensitive</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Password1'</initValue>
+      <name>password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Password Update</description>
+      <initValue>'Password2'</initValue>
+      <name>newPass</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Dev URL</description>
+      <initValue>'https://rc.api.expopass.com'</initValue>
+      <name>url</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'v1.1'</initValue>
+      <name>webVersion</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>631</initValue>
+      <name>eventID</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Main reg level</description>
+      <initValue>2028</initValue>
+      <name>regLevelID</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>authorize token</description>
+      <initValue>'ea73cde24c5742568c90f321e255bfdb'</initValue>
+      <name>Authorization</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Main Event Web Cart</description>
+      <initValue>'https://rc.webcart.regform.com/#!/registration/Kendr2q/info'</initValue>
+      <name>eventCartURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Gets the bearer token from login</description>
+      <initValue>''</initValue>
+      <name>Bearer</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'rick@expopass.com'</initValue>
+      <name>username</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'3XTNVEmw9cLkhUfLSb5Ar3dCd5DgPansVxm9EDqh'</initValue>
+      <name>clientID</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>1564</initValue>
+      <name>conf</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'test3'</initValue>
+      <name>newAccount_lName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'rick+autotest4@expopass.com'</initValue>
+      <name>newAccount_email</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Legacy for Events</description>
+      <initValue>'https://rc.app.expopass.com/legacy/events'</initValue>
+      <name>legacyEvents</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Legacy Create Event</description>
+      <initValue>'https://rc.app.expopass.com/legacy/create'</initValue>
+      <name>legacyCreate</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Legacy Join Exhibitor</description>
+      <initValue>'https://rc.app.expopass.com/legacy/events/join'</initValue>
+      <name>legacyJoin</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Legacy Edit Event</description>
+      <initValue>'https://rc.app.expopass.com/legacy/events/leVvg3e/details'</initValue>
+      <name>legacyEdit</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Legacy Attendees</description>
+      <initValue>'https://rc.app.expopass.com/legacy/events/leVvg3e/attendees'</initValue>
+      <name>legacyAttendees</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Legacy Sessions</description>
+      <initValue>'https://rc.app.expopass.com/legacy/events/leVvg3e/sessions'</initValue>
+      <name>legacySessions</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Legacy Registration</description>
+      <initValue>'https://rc.app.expopass.com/legacy/events/leVvg3e/registration'</initValue>
+      <name>legacyRegistration</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Legacy Session Details for Auto Test Session</description>
+      <initValue>'https://rc.app.expopass.com/legacy/events/leVvg3e/sessions/n2mqJo2/details'</initValue>
+      <name>legacySD_AutoTestSession</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Main Events Page</description>
+      <initValue>'https://rc.app.expopass.com/events'</initValue>
+      <name>events</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>event home url</description>
+      <initValue>'https://rc.app.expopass.com/events/leVvg3e'</initValue>
+      <name>eventHomeURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>My Schedule URL for Event</description>
+      <initValue>'https://rc.app.expopass.com/events/leVvg3e/schedule?view=MySchedule'</initValue>
+      <name>myScheduleURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Schedule URL for Event</description>
+      <initValue>'https://rc.app.expopass.com/events/leVvg3e/schedule'</initValue>
+      <name>scheduleURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Auto Test Session Details URL for Event</description>
+      <initValue>'https://rc.app.expopass.com/events/leVvg3e/sessions/n2mqJo2'</initValue>
+      <name>sessionURL_autoTestSession</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Future Session Details URL for Event</description>
+      <initValue>'https://rc.app.expopass.com/events/leVvg3e/sessions/Ge5QA8e'</initValue>
+      <name>sessionURL_futureSession</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Videos Session Details URL for Event</description>
+      <initValue>'https://rc.app.expopass.com/events/leVvg3e/sessions/9XoGLaX'</initValue>
+      <name>sessionURL_videosSession</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Breakfast Session Details URL for Event</description>
+      <initValue>'https://rc.app.expopass.com/events/leVvg3e/sessions/4j7VRNe'</initValue>
+      <name>sessionURL_breakfast</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Event Settings URL for Event</description>
+      <initValue>'https://rc.app.expopass.com/events/leVvg3e/settings'</initValue>
+      <name>eventSettingsURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Sponsors URL for Event</description>
+      <initValue>'https://rc.app.expopass.com/events/leVvg3e/sponsors'</initValue>
+      <name>sponsorsURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Exhibitors URL for Event</description>
+      <initValue>'https://rc.app.expopass.com/events/leVvg3e/schedule?view=Exhibitors'</initValue>
+      <name>exhibitorsURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Help Center URL for Attendee</description>
+      <initValue>'https://support.expopass.com/en/articles/4575932-web-app-attendee-help-center'</initValue>
+      <name>helpCenterAttendeeURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Help Center URL for Organizer/Admin</description>
+      <initValue>'https://support.expopass.com/en/collections/613610-organizer'</initValue>
+      <name>helpCenterOrganizerURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>URL for Theater Session</description>
+      <initValue>'https://rc.app.expopass.com/events/leVvg3e/theater/9leOBXb'</initValue>
+      <name>theater_url</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Event Header for Event Home</description>
+      <initValue>'Object Repository/Page_EXPO/Events Main page/NGX Home/Event Headers/h1_Automation - RC'</initValue>
+      <name>eventHeaderObj</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Welcome Image on event home video</description>
+      <initValue>'Object Repository/Page_EXPO/Events Main page/NGX Home/Event Specific/Automation/img_Puppy roof_fr-fic fr-dib fr-draggable'</initValue>
+      <name>welcomeHomeImage</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

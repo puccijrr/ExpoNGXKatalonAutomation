@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>No Email NGX</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ee4351dd-9843-4c70-8237-fb1c076b9f92</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.login_Url</defaultValue>
+      <description></description>
+      <id>412197fc-2587-48d4-a398-56878d0b8064</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+</TestCaseEntity>

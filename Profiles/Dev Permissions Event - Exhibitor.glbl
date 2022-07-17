@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>Dev Permissions Event - Exhibitor</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description>Dev Login</description>
+      <initValue>'https://rick.app.expopass.com/login'</initValue>
+      <name>login_Url</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'rick+ex@expopass.com'</initValue>
+      <name>login</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Password1'</initValue>
+      <name>password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Dev URL</description>
+      <initValue>'https://rick.ngx.expopass.com/'</initValue>
+      <name>url</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'v1.1'</initValue>
+      <name>webVersion</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>631</initValue>
+      <name>eventID</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Main reg level</description>
+      <initValue>2028</initValue>
+      <name>regLevelID</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>authorize token</description>
+      <initValue>'ea73cde24c5742568c90f321e255bfdb'</initValue>
+      <name>Authorization</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Main Event Web Cart</description>
+      <initValue>'https://rick.webcart.regform.com/#!/registration/Kendr2q/info'</initValue>
+      <name>eventCartURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Gets the bearer token from login</description>
+      <initValue>''</initValue>
+      <name>Bearer</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'rick+a@expopass.com'</initValue>
+      <name>username</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'3XTNVEmw9cLkhUfLSb5Ar3dCd5DgPansVxm9EDqh'</initValue>
+      <name>clientID</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>1564</initValue>
+      <name>conf</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'test3'</initValue>
+      <name>newAccount_lName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'rick+autotest4@expopass.com'</initValue>
+      <name>newAccount_email</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Legacy Create Event</description>
+      <initValue>'https://rick.app.expopass.com/legacy/create'</initValue>
+      <name>legacyCreate</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Legacy Join Exhibitor</description>
+      <initValue>'https://rick.app.expopass.com/legacy/events/join'</initValue>
+      <name>legacyJoin</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Legacy Edit Event</description>
+      <initValue>'https://rick.app.expopass.com/legacy/events/mjN8yX3/details'</initValue>
+      <name>legacyEdit</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Event Header for Event Home</description>
+      <initValue>'Object Repository/Page_EXPO/Events Main page/NGX Home/Event Headers/h1_Permissions Event'</initValue>
+      <name>eventHeaderObj</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Main Events Page</description>
+      <initValue>'https://rick.app.expopass.com/events'</initValue>
+      <name>events</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>event home url</description>
+      <initValue>'https://rick.app.expopass.com/events/7eloroX'</initValue>
+      <name>eventHomeURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Event Settings URL for Event</description>
+      <initValue>'https://rick.app.expopass.com/events/7eloroX/settings'</initValue>
+      <name>eventSettingsURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Badges URL for Event</description>
+      <initValue>'https://rick.app.expopass.com/events/7eloroX/badges'</initValue>
+      <name>badgesURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>My Schedule URL for Event</description>
+      <initValue>'https://rick.app.expopass.com/events/7eloroX/schedule?view=MySchedule'</initValue>
+      <name>myScheduleURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Schedule URL for Event</description>
+      <initValue>'https://rick.app.expopass.com/events/7eloroX/schedule'</initValue>
+      <name>scheduleURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Sponsors URL for Event</description>
+      <initValue>'https://rick.app.expopass.com/events/7eloroX/sponsors'</initValue>
+      <name>sponsorsURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Exhibitors URL for Event</description>
+      <initValue>'https://rick.app.expopass.com/events/7eloroX/schedule?view=Exhibitors'</initValue>
+      <name>exhibitorsURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>URL for Basic Permission Session</description>
+      <initValue>'https://rick.app.expopass.com/events/7eloroX/sessions/9XAm1LX'</initValue>
+      <name>basicPermissionSessionURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Permission Budle Edit Link</description>
+      <initValue>'https://rick.app.expopass.com/events/7eloroX/sponsors/36'</initValue>
+      <name>permissionBundleURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Permission Bundle Edit Editor Link</description>
+      <initValue>'https://rick.app.expopass.com/events/7eloroX/sponsors/36/edit'</initValue>
+      <name>permissionBundleEditURL</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

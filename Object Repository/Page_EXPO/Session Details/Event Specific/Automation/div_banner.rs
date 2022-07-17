@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_banner</name>
+   <tag></tag>
+   <elementGuidId>07fb1ee8-9a4a-4078-bcd7-4ddbe1ed2e5b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//section[@id='event']/section[2]/div[2]/article/ul/li[3]/div/app-sponsors-carousel/section/div/div/a/article/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>banner</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;event&quot;)/section[2]/div[@class=&quot;bottom&quot;]/article[1]/ul[1]/li[3]/div[@class=&quot;banner-ads&quot;]/app-sponsors-carousel[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;swipe banner-ad banner_on_event_home visible ng-star-inserted&quot;]/div[@class=&quot;swipe-wrap ng-star-inserted&quot;]/div[@class=&quot;ng-star-inserted&quot;]/a[1]/article[1]/div[@class=&quot;banner&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='event']/section[2]/div[2]/article/ul/li[3]/div/app-sponsors-carousel/section/div/div/a/article/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[3]/div/app-sponsors-carousel/section/div/div/a/article/div</value>
+   </webElementXpaths>
+</WebElementEntity>

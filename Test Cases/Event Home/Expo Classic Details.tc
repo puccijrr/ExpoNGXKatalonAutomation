@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Ensure Details Legacy link is found in new tab</description>
+   <name>Expo Classic Details</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7ac36f01-f493-49f6-890e-538296ab8592</testCaseGuid>
+</TestCaseEntity>

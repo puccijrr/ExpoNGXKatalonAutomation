@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Ensures expected hidden items are not seen when logged in as exhibitor</description>
+   <name>Exhibitor - Hidden Options</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f404dc82-2e1d-4cd6-bad9-b72e8e0842fd</testCaseGuid>
+</TestCaseEntity>

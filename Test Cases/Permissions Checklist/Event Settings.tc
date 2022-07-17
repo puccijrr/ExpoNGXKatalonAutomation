@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Ensures that Event Settings link is correctly accesssed</description>
+   <name>Event Settings</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b40e51f7-b792-47af-a4d5-56772b349b2a</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Ensures expected hidden items are not seen when logged in as attendee</description>
+   <name>Attendee - Hidden Options</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bbf658e1-a38e-456d-9b59-9d8dd0205e2a</testCaseGuid>
+</TestCaseEntity>

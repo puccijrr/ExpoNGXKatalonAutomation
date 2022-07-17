@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create New Account</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>79909e5b-20fc-4bc0-b623-e5134c754edc</testCaseGuid>
+   <variable>
+      <defaultValue>'New'</defaultValue>
+      <description></description>
+      <id>c159aaca-c669-4e9c-acf5-8c4e506fbdf8</id>
+      <masked>false</masked>
+      <name>firstName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Account1'</defaultValue>
+      <description></description>
+      <id>a2bd05f7-81ab-4c93-aeb2-68c073d0b9a2</id>
+      <masked>false</masked>
+      <name>lastName</name>
+   </variable>
+   <variable>
+      <defaultValue>'rick+super876@expopass.com'</defaultValue>
+      <description></description>
+      <id>7c620fe4-2e1e-439e-ac86-22d707407e8e</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'Password1\r\n'</defaultValue>
+      <description></description>
+      <id>b849a16c-4471-401a-b1cb-a185fbe680e8</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'Password1\r\n'</defaultValue>
+      <description></description>
+      <id>3f0d47f7-22ac-4017-94d9-234744a4a7fe</id>
+      <masked>false</masked>
+      <name>confPassword</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.login_Url</defaultValue>
+      <description></description>
+      <id>eef8e1bb-9ae8-4a9f-9628-d773e4b7a702</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+</TestCaseEntity>

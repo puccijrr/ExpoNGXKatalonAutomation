@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Checks that Vimeo Video file upload video setup requirements work for enableing save button (Vimeo ID min and max allowed digits) can be added/created and succesfully played</description>
+   <name>Session Video Type - Vimeo Video</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ad1e0b52-89fb-4535-9e69-2815abe02642</testCaseGuid>
+</TestCaseEntity>

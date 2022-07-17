@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Ensure Admin Menu Event Settings goes to correct url and expected header is found</description>
+   <name>Event Settings Menu</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7bbd31b4-09a1-4eb5-952d-59a5470c8502</testCaseGuid>
+</TestCaseEntity>

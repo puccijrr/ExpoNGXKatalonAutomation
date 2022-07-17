@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Preview Registration</description>
+   <name>Login and Register User through Preview</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9f2e1ba0-94e7-4594-b700-ceb6d68b7579</testCaseGuid>
+   <variable>
+      <defaultValue>'Franco'</defaultValue>
+      <description></description>
+      <id>a814005f-80ec-46ae-959e-53fec13f1eac</id>
+      <masked>false</masked>
+      <name>fName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Squirlbob'</defaultValue>
+      <description></description>
+      <id>e421b5ca-da95-4ea4-8adb-adbcdf8ad84b</id>
+      <masked>false</masked>
+      <name>lName</name>
+   </variable>
+   <variable>
+      <defaultValue>'turdmcgee5@expopass.com'</defaultValue>
+      <description></description>
+      <id>0834da51-c855-4503-8ab3-aba41f869131</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+</TestCaseEntity>

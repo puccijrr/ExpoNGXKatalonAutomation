@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Ensure Legacy link is found and loads</description>
+   <name>Create Event NGX</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cda4510e-fe6c-4ae7-adba-26c2e9aca1bb</testCaseGuid>
+</TestCaseEntity>

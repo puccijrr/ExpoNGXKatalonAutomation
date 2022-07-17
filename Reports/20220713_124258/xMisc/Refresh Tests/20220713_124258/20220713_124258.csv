@@ -1,0 +1,66 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Refresh Tests,Chrome 103.0.5060.114,Testing refreshing on every page to ensure elements reload (visible),,2022-07-13 12:43:00,2022-07-13 12:44:14,1m - 13.275s,PASSED
+,,,,,,,
+Test Cases/xMisc/Event Specific/Automation/Refresh Tests,Chrome 103.0.5060.114,Refresh as admin on all pages and ensure main elements load,,2022-07-13 12:43:00,2022-07-13 12:44:13,1m - 12.325s,PASSED
+"callTestCase(findTestCase(""Login Tests/Login with Main Events NGX (longer)""), [""url"":login_Url, ""events"":events], STOP_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-13 12:43:01,2022-07-13 12:43:28,27.647s,PASSED
+maximizeWindow(),Chrome 103.0.5060.114,,,2022-07-13 12:43:28,2022-07-13 12:43:29,0.149s,PASSED
+navigateToUrl(eventHomeURL),Chrome 103.0.5060.114,,,2022-07-13 12:43:29,2022-07-13 12:43:30,1.533s,PASSED
+delay(5),Chrome 103.0.5060.114,,,2022-07-13 12:43:30,2022-07-13 12:43:35,5.016s,PASSED
+refresh(),Chrome 103.0.5060.114,,,2022-07-13 12:43:35,2022-07-13 12:43:36,0.420s,PASSED
+delay(3),Chrome 103.0.5060.114,,,2022-07-13 12:43:36,2022-07-13 12:43:39,3.015s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_EXPO/Events Main page/NGX Home/button_Admin Menu keyboard_arrow_down""), CONTINUE_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-13 12:43:39,2022-07-13 12:43:41,2.067s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_EXPO/Events Main page/NGX Home/Attendee Access Status/button_Attendee Access ON""), CONTINUE_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-13 12:43:41,2022-07-13 12:43:41,0.340s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_EXPO/Events Main page/NGX Home/Template Layout/span_During-Event""), CONTINUE_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-13 12:43:41,2022-07-13 12:43:41,0.436s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_EXPO/Events Main page/NGX Home/button_Attendee Access""), CONTINUE_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-13 12:43:41,2022-07-13 12:43:42,0.312s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_EXPO/Events Main page/NGX Home/button_Edit""), CONTINUE_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-13 12:43:42,2022-07-13 12:43:42,0.324s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_EXPO/Events Main page/NGX Home/span_Template""), CONTINUE_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-13 12:43:42,2022-07-13 12:43:42,0.322s,PASSED
+"verifyElementVisible(findTestObject(eventHeaderObj), CONTINUE_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-13 12:43:42,2022-07-13 12:43:43,0.310s,PASSED
+"verifyElementVisible(findTestObject(""Page_EXPO/Events Main page/NGX Home/h4_Event Contacts""), CONTINUE_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-13 12:43:43,2022-07-13 12:43:43,0.314s,PASSED
+"verifyElementVisible(findTestObject(""Page_EXPO/Events Main page/NGX Home/h4_Resources""), CONTINUE_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-13 12:43:43,2022-07-13 12:43:43,0.314s,PASSED
+"verifyElementPresent(findTestObject(""Page_EXPO/Session Details/Event Specific/Automation/article_SponsorLets Go Flyers""), 7, CONTINUE_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-13 12:43:43,2022-07-13 12:43:44,0.314s,PASSED
+"verifyElementPresent(findTestObject(welcomeHomeImage), 3, CONTINUE_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-13 12:43:44,2022-07-13 12:43:44,0.310s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_EXPO/Events Main page/NGX Home/Event Specific/Automation/div_RR Rick RollQAphone(847) 602-2372mailrickexpopasscom""), CONTINUE_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-13 12:43:44,2022-07-13 12:43:44,0.326s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_EXPO/Events Main page/NGX Home/span_Video Player is loading_vjs-icon-placeholder""), 3, CONTINUE_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-13 12:43:44,2022-07-13 12:43:45,0.312s,PASSED
+navigateToUrl(scheduleURL),Chrome 103.0.5060.114,,,2022-07-13 12:43:45,2022-07-13 12:43:45,0.398s,PASSED
+delay(5),Chrome 103.0.5060.114,,,2022-07-13 12:43:45,2022-07-13 12:43:50,5.014s,PASSED
+refresh(),Chrome 103.0.5060.114,,,2022-07-13 12:43:50,2022-07-13 12:43:50,0.413s,PASSED
+delay(3),Chrome 103.0.5060.114,,,2022-07-13 12:43:50,2022-07-13 12:43:53,3.011s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_EXPO/Session List/h1_Schedule""), CONTINUE_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-13 12:43:53,2022-07-13 12:43:54,0.348s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_EXPO/Session List/title_Event""), CONTINUE_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-13 12:43:54,2022-07-13 12:43:54,0.328s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_EXPO/Session List/search_input""), CONTINUE_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-13 12:43:54,2022-07-13 12:43:54,0.325s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_EXPO/Session List/h3_View""), CONTINUE_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-13 12:43:54,2022-07-13 12:43:55,0.316s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_EXPO/Session List/View/li_Live""), CONTINUE_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-13 12:43:55,2022-07-13 12:43:55,0.310s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_EXPO/Session List/View/li_My Schedule""), CONTINUE_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-13 12:43:55,2022-07-13 12:43:55,0.334s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_EXPO/Session List/View/Active (Selected)/li_Event Schedule""), CONTINUE_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-13 12:43:55,2022-07-13 12:43:56,0.316s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_EXPO/Session List/h3_Filters""), CONTINUE_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-13 12:43:56,2022-07-13 12:43:56,0.339s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_EXPO/Session List/button_Filter""), 3, CONTINUE_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-13 12:43:56,2022-07-13 12:43:56,0.296s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_EXPO/Session List/th_Start Time""), CONTINUE_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-13 12:43:56,2022-07-13 12:43:57,0.326s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_EXPO/Session List/th_Title""), CONTINUE_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-13 12:43:57,2022-07-13 12:43:57,0.332s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_EXPO/Session List/th_Length""), CONTINUE_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-13 12:43:57,2022-07-13 12:43:57,0.312s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_EXPO/Session List/th_Speakers""), CONTINUE_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-13 12:43:57,2022-07-13 12:43:58,0.313s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_EXPO/Session List/th_Location""), CONTINUE_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-13 12:43:58,2022-07-13 12:43:58,0.316s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_EXPO/Session List/th_Speakers""), CONTINUE_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-13 12:43:58,2022-07-13 12:43:58,0.317s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_EXPO/Session List/Event Specific/div_Filter_banner""), 5, CONTINUE_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-13 12:43:58,2022-07-13 12:43:59,0.302s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_EXPO/Session List/View/li_Exhibitors""), CONTINUE_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-13 12:43:59,2022-07-13 12:43:59,0.311s,PASSED
+navigateToUrl(sessionURL_autoTestSession),Chrome 103.0.5060.114,,,2022-07-13 12:43:59,2022-07-13 12:43:59,0.569s,PASSED
+delay(5),Chrome 103.0.5060.114,,,2022-07-13 12:43:59,2022-07-13 12:44:04,5.017s,PASSED
+refresh(),Chrome 103.0.5060.114,,,2022-07-13 12:44:04,2022-07-13 12:44:05,0.390s,PASSED
+delay(3),Chrome 103.0.5060.114,,,2022-07-13 12:44:05,2022-07-13 12:44:08,3.003s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_EXPO/Session Details/button_Session Details""), CONTINUE_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-13 12:44:08,2022-07-13 12:44:08,0.441s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_EXPO/Session Details/button_Update Session Icon""), CONTINUE_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-13 12:44:08,2022-07-13 12:44:09,0.311s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_EXPO/Session Details/button_Edit""), CONTINUE_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-13 12:44:09,2022-07-13 12:44:09,0.317s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_EXPO/Session List/title_Event""), CONTINUE_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-13 12:44:09,2022-07-13 12:44:09,0.334s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_EXPO/Session Details/label_Back to Exhibitors""), CONTINUE_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-13 12:44:09,2022-07-13 12:44:10,0.327s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_EXPO/Session Details/h4_Session Type""), CONTINUE_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-13 12:44:10,2022-07-13 12:44:10,0.328s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_EXPO/Session Details/h4_Location""), CONTINUE_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-13 12:44:10,2022-07-13 12:44:10,0.336s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_EXPO/Session Details/Event Specific/Automation/h3_Automation""), CONTINUE_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-13 12:44:10,2022-07-13 12:44:11,0.316s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_EXPO/Session Details/Headers/h1_Auto Test Session""), CONTINUE_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-13 12:44:11,2022-07-13 12:44:11,0.309s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_EXPO/Session Details/Event Specific/Automation/p_Exhibitor""), CONTINUE_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-13 12:44:11,2022-07-13 12:44:11,0.317s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_EXPO/Session Details/Event Specific/Automation/p_Autoland""), CONTINUE_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-13 12:44:11,2022-07-13 12:44:12,0.324s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_EXPO/Session Details/Event Specific/Automation/h5_Agent Boris""), CONTINUE_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-13 12:44:12,2022-07-13 12:44:12,0.325s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_EXPO/Session Details/h4_Materials""), CONTINUE_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-13 12:44:12,2022-07-13 12:44:12,0.314s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_EXPO/Session Details/Event Specific/Automation/button_OWjpgget_app""), CONTINUE_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-13 12:44:12,2022-07-13 12:44:12,0.314s,PASSED
+"verifyElementVisible(findTestObject(""Page_EXPO/Session Details/Event Specific/Automation/button_Join""), CONTINUE_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-13 12:44:12,2022-07-13 12:44:13,0.312s,PASSED
+,,,,,,,
+Test Cases/General Functionality/Close Browser,Chrome 103.0.5060.114,Close out active browser (for test suites),,2022-07-13 12:44:13,2022-07-13 12:44:14,0.778s,PASSED
+closeBrowser(),Chrome 103.0.5060.114,,,2022-07-13 12:44:13,2022-07-13 12:44:14,0.618s,PASSED

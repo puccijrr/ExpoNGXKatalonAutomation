@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Ensure My Events hamburger button returns to Events list url</description>
+   <name>My Events</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d5d1f3a8-2705-4be6-af0c-eda5532d7688</testCaseGuid>
+</TestCaseEntity>

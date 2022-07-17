@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Ensure all sponsorships (of all types) on all pages correctly link to expected URL</description>
+   <name>URL Link Checks</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>deb73cd6-616b-4153-b4d9-064b5b90ff6a</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Add a new user request to an Event</description>
+   <name>Add User</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>de1c2168-ac20-4a24-af4b-04e69b231578</testCaseGuid>
+   <variable>
+      <defaultValue>'rick+1@expopass.com'</defaultValue>
+      <description>Var for new user email invitation</description>
+      <id>112d9be1-52c1-4830-8303-2618b6eecabf</id>
+      <masked>false</masked>
+      <name>UserEmail</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Checks that URL type video can be created and opens to correct url after clicking new Join button</description>
+   <name>Session URL Type</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>01a17da1-4e81-4393-9610-fee699edf1c5</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>44bc2462-b4cf-47a7-ba92-11c226ffe1d9</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'https://katalon.com/'</defaultValue>
+      <description></description>
+      <id>44bc2462-b4cf-47a7-ba92-11c226ffe1d9</id>
+      <masked>false</masked>
+      <name>vid_url</name>
+   </variable>
+</TestCaseEntity>
